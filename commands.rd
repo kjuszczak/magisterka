@@ -1,5 +1,8 @@
 # FreeRTOS
-st-flash write main.bin 0x8000000
+openocd -f board/st_nucleo_f2.cfg -c "program ./freertos/build/main.elf verify reset exit"
+
+# Mbed-OS
+openocd -f board/st_nucleo_f2.cfg -c "program ./mbed-os-app/BUILD/NUCLEO_F207ZG/GCC_ARM/mbed-os-app.elf verify reset exit"
 
 # Windows
 usbipd wsl list

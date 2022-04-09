@@ -1,0 +1,7 @@
+/home/kjuszcza/magisterka/freertos/build/CMakeFiles/hal.dir
+/home/kjuszcza/magisterka/freertos/build/CMakeFiles/rtos.dir
+/home/kjuszcza/magisterka/freertos/build/CMakeFiles/main.elf.dir
+/home/kjuszcza/magisterka/freertos/build/CMakeFiles/main.bin.dir
+/home/kjuszcza/magisterka/freertos/build/CMakeFiles/main.hex.dir
+/home/kjuszcza/magisterka/freertos/build/CMakeFiles/edit_cache.dir
+/home/kjuszcza/magisterka/freertos/build/CMakeFiles/rebuild_cache.dir

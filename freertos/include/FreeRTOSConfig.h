@@ -1,6 +1,8 @@
 #ifndef FREERTOS_CONFIG_H
 #define FREERTOS_CONFIG_H
 
+#include "FreeRTOSHandlers.h"
+
 // For more information about each macro checkout https://www.freertos.org/a00110.html
 /* Here is a good place to include header files that are required across
 your application. */
@@ -77,13 +79,5 @@ See http://www.FreeRTOS.org/RTOS-Cortex-M3-M4.html. */
 /* Normal assert() semantics without relying on the provision of an assert.h
 header file. */
 #define configASSERT( x ) if( ( x ) == 0 ) { taskDISABLE_INTERRUPTS(); for( ;; ); }
-	
-/* Definitions that map the FreeRTOS port interrupt handlers to their CMSIS
-standard names. */
-#define vPortSVCHandler SVC_Handler
-#define xPortPendSVHandler PendSV_Handler
-#define xPortSysTickHandler SysTick_Handler
-
-/* A header file that defines trace macro can be included here. */
 
 #endif /* FREERTOS_CONFIG_H */
