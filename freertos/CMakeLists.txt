@@ -54,11 +54,24 @@ set(HAL_DIR components/STM32F2xx_HAL_Driver)
 #-------------------
 # RTOS Setup
 #-------------------
+# Path to FreeRTOS
+set(RTOS_DIR components/FreeRTOS)
+
 # Path to FreeRTOS Kernel
-set(RTOS_DIR components/FreeRTOS-Kernel)
+set(RTOS_DIR_KERNEL ${RTOS_DIR}/FreeRTOS-Kernel)
 # Modify this to the path where your micrcontroller specific port is
-set(RTOS_DIR_MCU ${RTOS_DIR}/portable/GCC/ARM_CM3) # For cortex-m3 microcontroller
-set(RTOS_HEAP    ${RTOS_DIR}/portable/MemMang/heap_4.c) # Select which heap implementation to use
+set(RTOS_DIR_KERNEL_MCU ${RTOS_DIR_KERNEL}/portable/GCC/ARM_CM3) # For cortex-m3 microcontroller
+set(RTOS_HEAP    ${RTOS_DIR_KERNEL}/portable/MemMang/heap_4.c) # Select which heap implementation to use
+
+# Path to FreeRTOS TCP
+set(RTOS_DIR_TCP ${RTOS_DIR}/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP)
+set(RTOS_PORT_LAYER_TCP ${RTOS_DIR_TCP}/portable/NetworkInterface/STM32Fxx)
+set(RTOS_BUFFER_TCP ${RTOS_DIR_TCP}/portable/BufferManagement/BufferAllocation_1.c)
+set(RTOS_PACK_STRUCT_TCP ${RTOS_DIR_TCP}/portable/Compiler/GCC)
+set(RTOS_PHY_HANDLING_TCP ${RTOS_DIR_TCP}/portable/NetworkInterface/include)
+set(RTOS_PHY_HANDLING_SRC_TCP ${RTOS_DIR_TCP}/portable/NetworkInterface/Common/phyHandling.c)
+
+set(MCU_TCP STM32F2xx)
 
 #-------------------
 # CMSIS Setup
@@ -178,6 +191,7 @@ endif()
 #-------------------
 file(GLOB HAL_SRC
     "${HAL_DIR}/Src/*.c"
+    "${RTOS_PORT_LAYER_TCP}/stm32fxx_hal_eth.c"
     )
 add_library(hal STATIC
     ${HAL_SRC}
@@ -187,12 +201,14 @@ target_include_directories(hal
     ${HAL_DIR}/Inc
     ${MCU_DIR}/Include
     ${CMSIS_DIR}/Core/Include
+    ${RTOS_PORT_LAYER_TCP}
     PRIVATE
     ${PROJECT_SOURCE_DIR}/include
     )
 target_compile_definitions(hal
     PUBLIC
     ${MCU}
+    ${MCU_TCP}
     HSE_VALUE=${HSE_VAL}
     )
 
@@ -201,19 +217,34 @@ target_compile_definitions(hal
 #-------------------
 string(APPEND CMAKE_EXE_LINKER_FLAGS_RELEASE "-Wl,--undefined=vTaskSwitchContext ")
 file(GLOB RTOS_SRC
-    "${RTOS_DIR}/*.c"
-    "${RTOS_DIR_MCU}/*.c"
+    "${RTOS_DIR_KERNEL}/*.c"
+    "${RTOS_DIR_KERNEL_MCU}/*.c"
     ${RTOS_HEAP}
+    "${RTOS_DIR_TCP}/*.c"
+    "${RTOS_PORT_LAYER_TCP}/NetworkInterface.c"
+    ${RTOS_PHY_HANDLING_SRC_TCP}
+    ${RTOS_BUFFER_TCP}
     )
 add_library(rtos STATIC
     ${RTOS_SRC}
     )
 target_include_directories(rtos
     PUBLIC
-    ${RTOS_DIR}/include
-    ${RTOS_DIR_MCU}
+    ${RTOS_DIR_KERNEL}/include
+    ${RTOS_DIR_KERNEL_MCU}
+    ${RTOS_DIR_TCP}/include
+    ${RTOS_PACK_STRUCT_TCP}
+    ${RTOS_PHY_HANDLING_TCP}
     PRIVATE
     ${PROJECT_SOURCE_DIR}/include
+    )
+target_link_libraries(rtos
+    PUBLIC
+    hal
+    )
+target_compile_definitions(rtos
+    PUBLIC
+    ${MCU_TCP}
     )
 
 #-------------------
@@ -222,6 +253,7 @@ target_include_directories(rtos
 file(GLOB MAIN_SRC
     "src/*.c"
     "../board_config/src/*.c"
+    "../rhealstone/src/*.c"
     )
 set(SOURCES
     ${MAIN_SRC}
@@ -235,6 +267,7 @@ target_include_directories(${PROJECT_NAME}.elf
     PUBLIC
     ${PROJECT_SOURCE_DIR}/include
     ${PROJECT_SOURCE_DIR}/../board_config/include
+    ${PROJECT_SOURCE_DIR}/../rhealstone/include
     )
 target_link_libraries(${PROJECT_NAME}.elf
     PUBLIC

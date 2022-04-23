@@ -69,10 +69,24 @@ include CMakeFiles/hal.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/hal.dir/flags.make
 
+CMakeFiles/hal.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/stm32fxx_hal_eth.c.obj: CMakeFiles/hal.dir/flags.make
+CMakeFiles/hal.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/stm32fxx_hal_eth.c.obj: ../components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/stm32fxx_hal_eth.c
+CMakeFiles/hal.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/stm32fxx_hal_eth.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/hal.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/stm32fxx_hal_eth.c.obj"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/stm32fxx_hal_eth.c.obj -MF CMakeFiles/hal.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/stm32fxx_hal_eth.c.obj.d -o CMakeFiles/hal.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/stm32fxx_hal_eth.c.obj -c /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/stm32fxx_hal_eth.c
+
+CMakeFiles/hal.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/stm32fxx_hal_eth.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hal.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/stm32fxx_hal_eth.c.i"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/stm32fxx_hal_eth.c > CMakeFiles/hal.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/stm32fxx_hal_eth.c.i
+
+CMakeFiles/hal.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/stm32fxx_hal_eth.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hal.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/stm32fxx_hal_eth.c.s"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/stm32fxx_hal_eth.c -o CMakeFiles/hal.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/stm32fxx_hal_eth.c.s
+
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal.c.i: cmake_force
@@ -86,7 +100,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal.c.s: cmake_
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_adc.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_adc.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_adc.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_adc.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_adc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_adc.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_adc.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_adc.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_adc.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_adc.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_adc.c.i: cmake_force
@@ -100,7 +114,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_adc.c.s: cm
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_adc_ex.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_adc_ex.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_adc_ex.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_adc_ex.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_adc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_adc_ex.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_adc_ex.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_adc_ex.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_adc_ex.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_adc_ex.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_adc_ex.c.i: cmake_force
@@ -114,7 +128,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_adc_ex.c.s:
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_can.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_can.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_can.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_can.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_can.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_can.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_can.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_can.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_can.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_can.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_can.c.i: cmake_force
@@ -128,7 +142,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_can.c.s: cm
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_cortex.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_cortex.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_cortex.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_cortex.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_cortex.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_cortex.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_cortex.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_cortex.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_cortex.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_cortex.c.i: cmake_force
@@ -142,7 +156,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_cortex.c.s:
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_crc.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_crc.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_crc.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_crc.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_crc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_crc.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_crc.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_crc.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_crc.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_crc.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_crc.c.i: cmake_force
@@ -156,7 +170,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_crc.c.s: cm
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_cryp.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_cryp.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_cryp.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_cryp.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_cryp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_cryp.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_cryp.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_cryp.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_cryp.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_cryp.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_cryp.c.i: cmake_force
@@ -170,7 +184,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_cryp.c.s: c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dac.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dac.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dac.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dac.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dac.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dac.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dac.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dac.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dac.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dac.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dac.c.i: cmake_force
@@ -184,7 +198,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dac.c.s: cm
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dac_ex.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dac_ex.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dac_ex.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dac_ex.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dac_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dac_ex.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dac_ex.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dac_ex.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dac_ex.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dac_ex.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dac_ex.c.i: cmake_force
@@ -198,7 +212,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dac_ex.c.s:
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dcmi.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dcmi.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dcmi.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dcmi.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dcmi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dcmi.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dcmi.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dcmi.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dcmi.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dcmi.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dcmi.c.i: cmake_force
@@ -212,7 +226,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dcmi.c.s: c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dcmi_ex.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dcmi_ex.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dcmi_ex.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dcmi_ex.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dcmi_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dcmi_ex.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dcmi_ex.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dcmi_ex.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dcmi_ex.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dcmi_ex.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dcmi_ex.c.i: cmake_force
@@ -226,7 +240,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dcmi_ex.c.s
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dma.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dma.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dma.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dma.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dma.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dma.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dma.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dma.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dma.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dma.c.i: cmake_force
@@ -240,7 +254,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dma.c.s: cm
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dma_ex.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dma_ex.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dma_ex.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dma_ex.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dma_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dma_ex.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dma_ex.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dma_ex.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dma_ex.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dma_ex.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dma_ex.c.i: cmake_force
@@ -254,7 +268,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dma_ex.c.s:
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_eth.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_eth.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_eth.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_eth.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_eth.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_eth.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_eth.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_eth.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_eth.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_eth.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_eth.c.i: cmake_force
@@ -268,7 +282,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_eth.c.s: cm
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_exti.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_exti.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_exti.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_exti.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_exti.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_exti.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_exti.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_exti.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_exti.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_exti.c.i: cmake_force
@@ -282,7 +296,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_exti.c.s: c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_flash.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_flash.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_flash.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_flash.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_flash.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_flash.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_flash.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_flash.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_flash.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_flash.c.i: cmake_force
@@ -296,7 +310,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_flash.c.s: 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_flash_ex.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_flash_ex.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_flash_ex.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_flash_ex.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_flash_ex.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_flash_ex.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_flash_ex.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_flash_ex.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_flash_ex.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_flash_ex.c.i: cmake_force
@@ -310,7 +324,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_flash_ex.c.
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_gpio.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_gpio.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_gpio.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_gpio.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_gpio.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_gpio.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_gpio.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_gpio.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_gpio.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_gpio.c.i: cmake_force
@@ -324,7 +338,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_gpio.c.s: c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_hash.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_hash.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_hash.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_hash.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_hash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_hash.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_hash.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_hash.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_hash.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_hash.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_hash.c.i: cmake_force
@@ -338,7 +352,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_hash.c.s: c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_hcd.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_hcd.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_hcd.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_hcd.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_hcd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_hcd.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_hcd.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_hcd.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_hcd.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_hcd.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_hcd.c.i: cmake_force
@@ -352,7 +366,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_hcd.c.s: cm
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_i2c.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_i2c.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_i2c.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_i2c.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_i2c.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_i2c.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_i2c.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_i2c.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_i2c.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_i2c.c.i: cmake_force
@@ -366,7 +380,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_i2c.c.s: cm
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_i2s.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_i2s.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_i2s.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_i2s.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_i2s.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_i2s.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_i2s.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_i2s.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_i2s.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_i2s.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_i2s.c.i: cmake_force
@@ -380,7 +394,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_i2s.c.s: cm
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_irda.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_irda.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_irda.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_irda.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_irda.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_irda.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_irda.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_irda.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_irda.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_irda.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_irda.c.i: cmake_force
@@ -394,7 +408,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_irda.c.s: c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_iwdg.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_iwdg.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_iwdg.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_iwdg.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_iwdg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_iwdg.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_iwdg.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_iwdg.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_iwdg.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_iwdg.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_iwdg.c.i: cmake_force
@@ -408,7 +422,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_iwdg.c.s: c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_mmc.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_mmc.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_mmc.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_mmc.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_mmc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_mmc.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_mmc.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_mmc.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_mmc.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_mmc.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_mmc.c.i: cmake_force
@@ -422,7 +436,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_mmc.c.s: cm
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_nand.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_nand.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_nand.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_nand.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_nand.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_nand.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_nand.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_nand.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_nand.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_nand.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_nand.c.i: cmake_force
@@ -436,7 +450,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_nand.c.s: c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_nor.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_nor.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_nor.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_nor.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_nor.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_nor.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_nor.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_nor.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_nor.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_nor.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_nor.c.i: cmake_force
@@ -450,7 +464,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_nor.c.s: cm
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pccard.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pccard.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pccard.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pccard.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pccard.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pccard.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pccard.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pccard.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pccard.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pccard.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pccard.c.i: cmake_force
@@ -464,7 +478,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pccard.c.s:
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pcd.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pcd.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pcd.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pcd.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pcd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pcd.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pcd.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pcd.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pcd.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pcd.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pcd.c.i: cmake_force
@@ -478,7 +492,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pcd.c.s: cm
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pcd_ex.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pcd_ex.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pcd_ex.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pcd_ex.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pcd_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pcd_ex.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pcd_ex.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pcd_ex.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pcd_ex.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pcd_ex.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pcd_ex.c.i: cmake_force
@@ -492,7 +506,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pcd_ex.c.s:
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pwr.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pwr.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pwr.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pwr.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pwr.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pwr.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pwr.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pwr.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pwr.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pwr.c.i: cmake_force
@@ -506,7 +520,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pwr.c.s: cm
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pwr_ex.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pwr_ex.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pwr_ex.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pwr_ex.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pwr_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pwr_ex.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pwr_ex.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pwr_ex.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pwr_ex.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pwr_ex.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pwr_ex.c.i: cmake_force
@@ -520,7 +534,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pwr_ex.c.s:
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c.i: cmake_force
@@ -534,7 +548,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c.s: cm
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc_ex.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc_ex.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc_ex.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc_ex.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc_ex.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc_ex.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc_ex.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc_ex.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc_ex.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc_ex.c.i: cmake_force
@@ -548,7 +562,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc_ex.c.s:
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rng.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rng.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rng.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rng.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rng.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rng.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rng.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rng.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rng.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rng.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rng.c.i: cmake_force
@@ -562,7 +576,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rng.c.s: cm
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rtc.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rtc.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rtc.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rtc.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rtc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rtc.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rtc.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rtc.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rtc.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rtc.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rtc.c.i: cmake_force
@@ -576,7 +590,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rtc.c.s: cm
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rtc_ex.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rtc_ex.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rtc_ex.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rtc_ex.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rtc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rtc_ex.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rtc_ex.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rtc_ex.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rtc_ex.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rtc_ex.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rtc_ex.c.i: cmake_force
@@ -590,7 +604,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rtc_ex.c.s:
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_sd.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_sd.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_sd.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_sd.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_sd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_sd.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_sd.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_sd.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_sd.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_sd.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_sd.c.i: cmake_force
@@ -604,7 +618,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_sd.c.s: cma
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_smartcard.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_smartcard.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_smartcard.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_smartcard.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_smartcard.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_smartcard.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_smartcard.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_smartcard.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_smartcard.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_smartcard.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_smartcard.c.i: cmake_force
@@ -618,7 +632,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_smartcard.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_spi.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_spi.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_spi.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_spi.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_spi.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_spi.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_spi.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_spi.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_spi.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_spi.c.i: cmake_force
@@ -632,7 +646,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_spi.c.s: cm
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_sram.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_sram.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_sram.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_sram.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_sram.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_sram.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_sram.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_sram.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_sram.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_sram.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_sram.c.i: cmake_force
@@ -646,7 +660,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_sram.c.s: c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_tim.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_tim.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_tim.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_tim.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_tim.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_tim.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_tim.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_tim.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_tim.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_tim.c.i: cmake_force
@@ -660,7 +674,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_tim.c.s: cm
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_tim_ex.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_tim_ex.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_tim_ex.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_tim_ex.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_tim_ex.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_tim_ex.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_tim_ex.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_tim_ex.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_tim_ex.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_tim_ex.c.i: cmake_force
@@ -674,7 +688,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_tim_ex.c.s:
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_uart.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_uart.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_uart.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_uart.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_uart.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_uart.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_uart.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_uart.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_uart.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_uart.c.i: cmake_force
@@ -688,7 +702,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_uart.c.s: c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_usart.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_usart.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_usart.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_usart.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_usart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_usart.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_usart.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_usart.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_usart.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_usart.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_usart.c.i: cmake_force
@@ -702,7 +716,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_usart.c.s: 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_wwdg.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_wwdg.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_wwdg.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_wwdg.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_wwdg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_wwdg.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_wwdg.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_wwdg.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_wwdg.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_wwdg.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_wwdg.c.i: cmake_force
@@ -716,7 +730,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_wwdg.c.s: c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_adc.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_adc.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_adc.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_adc.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_adc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_adc.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_adc.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_adc.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_adc.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_adc.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_adc.c.i: cmake_force
@@ -730,7 +744,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_adc.c.s: cma
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_crc.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_crc.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_crc.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_crc.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_crc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_crc.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_crc.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_crc.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_crc.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_crc.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_crc.c.i: cmake_force
@@ -744,7 +758,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_crc.c.s: cma
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_dac.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_dac.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_dac.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_dac.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_dac.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_dac.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_dac.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_dac.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_dac.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_dac.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_dac.c.i: cmake_force
@@ -758,7 +772,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_dac.c.s: cma
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_dma.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_dma.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_dma.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_dma.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_dma.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_dma.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_dma.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_dma.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_dma.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_dma.c.i: cmake_force
@@ -772,7 +786,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_dma.c.s: cma
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_exti.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_exti.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_exti.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_exti.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_exti.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_exti.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_exti.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_exti.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_exti.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_exti.c.i: cmake_force
@@ -786,7 +800,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_exti.c.s: cm
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_fsmc.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_fsmc.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_fsmc.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_fsmc.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_fsmc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_fsmc.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_fsmc.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_fsmc.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_fsmc.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_fsmc.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_fsmc.c.i: cmake_force
@@ -800,7 +814,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_fsmc.c.s: cm
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_gpio.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_gpio.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_gpio.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_gpio.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_gpio.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_gpio.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_gpio.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_gpio.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_gpio.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_gpio.c.i: cmake_force
@@ -814,7 +828,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_gpio.c.s: cm
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_i2c.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_i2c.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_i2c.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_i2c.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_i2c.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_i2c.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_i2c.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_i2c.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_i2c.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_i2c.c.i: cmake_force
@@ -828,7 +842,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_i2c.c.s: cma
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_pwr.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_pwr.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_pwr.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_pwr.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_pwr.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_pwr.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_pwr.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_pwr.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_pwr.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_pwr.c.i: cmake_force
@@ -842,7 +856,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_pwr.c.s: cma
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_rcc.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_rcc.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_rcc.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_rcc.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_rcc.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_rcc.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_rcc.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_rcc.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_rcc.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_rcc.c.i: cmake_force
@@ -856,7 +870,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_rcc.c.s: cma
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_rng.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_rng.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_rng.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_rng.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_rng.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_rng.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_rng.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_rng.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_rng.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_rng.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_rng.c.i: cmake_force
@@ -870,7 +884,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_rng.c.s: cma
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_rtc.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_rtc.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_rtc.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_rtc.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_rtc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_rtc.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_rtc.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_rtc.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_rtc.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_rtc.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_rtc.c.i: cmake_force
@@ -884,7 +898,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_rtc.c.s: cma
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_sdmmc.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_sdmmc.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_sdmmc.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_sdmmc.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_sdmmc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_sdmmc.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_sdmmc.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_sdmmc.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_sdmmc.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_sdmmc.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_sdmmc.c.i: cmake_force
@@ -898,7 +912,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_sdmmc.c.s: c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_spi.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_spi.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_spi.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_spi.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_spi.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_spi.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_spi.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_spi.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_spi.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_spi.c.i: cmake_force
@@ -912,7 +926,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_spi.c.s: cma
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_tim.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_tim.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_tim.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_tim.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_tim.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_tim.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_tim.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_tim.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_tim.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_tim.c.i: cmake_force
@@ -926,7 +940,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_tim.c.s: cma
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_usart.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_usart.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_usart.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_usart.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_usart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_usart.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_usart.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_usart.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_usart.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_usart.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_usart.c.i: cmake_force
@@ -940,7 +954,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_usart.c.s: c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_usb.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_usb.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_usb.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_usb.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_usb.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_usb.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_usb.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_usb.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_usb.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_usb.c.i: cmake_force
@@ -954,7 +968,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_usb.c.s: cma
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_utils.c.obj: CMakeFiles/hal.dir/flags.make
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_utils.c.obj: ../components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_utils.c
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_utils.c.obj: CMakeFiles/hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_utils.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_utils.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_utils.c.obj -MF CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_utils.c.obj.d -o CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_utils.c.obj -c /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_utils.c
 
 CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_utils.c.i: cmake_force
@@ -967,6 +981,7 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_utils.c.s: c
 
 # Object files for target hal
 hal_OBJECTS = \
+"CMakeFiles/hal.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/stm32fxx_hal_eth.c.obj" \
 "CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal.c.obj" \
 "CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_adc.c.obj" \
 "CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_adc_ex.c.obj" \
@@ -1035,6 +1050,7 @@ hal_OBJECTS = \
 # External object files for target hal
 hal_EXTERNAL_OBJECTS =
 
+libhal.a: CMakeFiles/hal.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/stm32fxx_hal_eth.c.obj
 libhal.a: CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal.c.obj
 libhal.a: CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_adc.c.obj
 libhal.a: CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_adc_ex.c.obj
@@ -1101,7 +1117,7 @@ libhal.a: CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_us
 libhal.a: CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_utils.c.obj
 libhal.a: CMakeFiles/hal.dir/build.make
 libhal.a: CMakeFiles/hal.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Linking C static library libhal.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Linking C static library libhal.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/hal.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hal.dir/link.txt --verbose=$(VERBOSE)
 

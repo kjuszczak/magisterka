@@ -213,221 +213,533 @@ components/CMSIS/Device/ST/STM32F2xx/Source/Templates/system_stm32f2xx.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.elf.dir/build.make CMakeFiles/main.elf.dir/components/CMSIS/Device/ST/STM32F2xx/Source/Templates/system_stm32f2xx.c.s
 .PHONY : components/CMSIS/Device/ST/STM32F2xx/Source/Templates/system_stm32f2xx.c.s
 
-components/FreeRTOS-Kernel/croutine.obj: components/FreeRTOS-Kernel/croutine.c.obj
-.PHONY : components/FreeRTOS-Kernel/croutine.obj
+components/FreeRTOS/FreeRTOS-Kernel/croutine.obj: components/FreeRTOS/FreeRTOS-Kernel/croutine.c.obj
+.PHONY : components/FreeRTOS/FreeRTOS-Kernel/croutine.obj
 
 # target to build an object file
-components/FreeRTOS-Kernel/croutine.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/croutine.c.obj
-.PHONY : components/FreeRTOS-Kernel/croutine.c.obj
+components/FreeRTOS/FreeRTOS-Kernel/croutine.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/croutine.c.obj
+.PHONY : components/FreeRTOS/FreeRTOS-Kernel/croutine.c.obj
 
-components/FreeRTOS-Kernel/croutine.i: components/FreeRTOS-Kernel/croutine.c.i
-.PHONY : components/FreeRTOS-Kernel/croutine.i
+components/FreeRTOS/FreeRTOS-Kernel/croutine.i: components/FreeRTOS/FreeRTOS-Kernel/croutine.c.i
+.PHONY : components/FreeRTOS/FreeRTOS-Kernel/croutine.i
 
 # target to preprocess a source file
-components/FreeRTOS-Kernel/croutine.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/croutine.c.i
-.PHONY : components/FreeRTOS-Kernel/croutine.c.i
+components/FreeRTOS/FreeRTOS-Kernel/croutine.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/croutine.c.i
+.PHONY : components/FreeRTOS/FreeRTOS-Kernel/croutine.c.i
 
-components/FreeRTOS-Kernel/croutine.s: components/FreeRTOS-Kernel/croutine.c.s
-.PHONY : components/FreeRTOS-Kernel/croutine.s
+components/FreeRTOS/FreeRTOS-Kernel/croutine.s: components/FreeRTOS/FreeRTOS-Kernel/croutine.c.s
+.PHONY : components/FreeRTOS/FreeRTOS-Kernel/croutine.s
 
 # target to generate assembly for a file
-components/FreeRTOS-Kernel/croutine.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/croutine.c.s
-.PHONY : components/FreeRTOS-Kernel/croutine.c.s
+components/FreeRTOS/FreeRTOS-Kernel/croutine.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/croutine.c.s
+.PHONY : components/FreeRTOS/FreeRTOS-Kernel/croutine.c.s
 
-components/FreeRTOS-Kernel/event_groups.obj: components/FreeRTOS-Kernel/event_groups.c.obj
-.PHONY : components/FreeRTOS-Kernel/event_groups.obj
+components/FreeRTOS/FreeRTOS-Kernel/event_groups.obj: components/FreeRTOS/FreeRTOS-Kernel/event_groups.c.obj
+.PHONY : components/FreeRTOS/FreeRTOS-Kernel/event_groups.obj
 
 # target to build an object file
-components/FreeRTOS-Kernel/event_groups.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/event_groups.c.obj
-.PHONY : components/FreeRTOS-Kernel/event_groups.c.obj
+components/FreeRTOS/FreeRTOS-Kernel/event_groups.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/event_groups.c.obj
+.PHONY : components/FreeRTOS/FreeRTOS-Kernel/event_groups.c.obj
 
-components/FreeRTOS-Kernel/event_groups.i: components/FreeRTOS-Kernel/event_groups.c.i
-.PHONY : components/FreeRTOS-Kernel/event_groups.i
+components/FreeRTOS/FreeRTOS-Kernel/event_groups.i: components/FreeRTOS/FreeRTOS-Kernel/event_groups.c.i
+.PHONY : components/FreeRTOS/FreeRTOS-Kernel/event_groups.i
 
 # target to preprocess a source file
-components/FreeRTOS-Kernel/event_groups.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/event_groups.c.i
-.PHONY : components/FreeRTOS-Kernel/event_groups.c.i
+components/FreeRTOS/FreeRTOS-Kernel/event_groups.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/event_groups.c.i
+.PHONY : components/FreeRTOS/FreeRTOS-Kernel/event_groups.c.i
 
-components/FreeRTOS-Kernel/event_groups.s: components/FreeRTOS-Kernel/event_groups.c.s
-.PHONY : components/FreeRTOS-Kernel/event_groups.s
+components/FreeRTOS/FreeRTOS-Kernel/event_groups.s: components/FreeRTOS/FreeRTOS-Kernel/event_groups.c.s
+.PHONY : components/FreeRTOS/FreeRTOS-Kernel/event_groups.s
 
 # target to generate assembly for a file
-components/FreeRTOS-Kernel/event_groups.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/event_groups.c.s
-.PHONY : components/FreeRTOS-Kernel/event_groups.c.s
+components/FreeRTOS/FreeRTOS-Kernel/event_groups.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/event_groups.c.s
+.PHONY : components/FreeRTOS/FreeRTOS-Kernel/event_groups.c.s
 
-components/FreeRTOS-Kernel/list.obj: components/FreeRTOS-Kernel/list.c.obj
-.PHONY : components/FreeRTOS-Kernel/list.obj
+components/FreeRTOS/FreeRTOS-Kernel/list.obj: components/FreeRTOS/FreeRTOS-Kernel/list.c.obj
+.PHONY : components/FreeRTOS/FreeRTOS-Kernel/list.obj
 
 # target to build an object file
-components/FreeRTOS-Kernel/list.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/list.c.obj
-.PHONY : components/FreeRTOS-Kernel/list.c.obj
+components/FreeRTOS/FreeRTOS-Kernel/list.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/list.c.obj
+.PHONY : components/FreeRTOS/FreeRTOS-Kernel/list.c.obj
 
-components/FreeRTOS-Kernel/list.i: components/FreeRTOS-Kernel/list.c.i
-.PHONY : components/FreeRTOS-Kernel/list.i
+components/FreeRTOS/FreeRTOS-Kernel/list.i: components/FreeRTOS/FreeRTOS-Kernel/list.c.i
+.PHONY : components/FreeRTOS/FreeRTOS-Kernel/list.i
 
 # target to preprocess a source file
-components/FreeRTOS-Kernel/list.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/list.c.i
-.PHONY : components/FreeRTOS-Kernel/list.c.i
+components/FreeRTOS/FreeRTOS-Kernel/list.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/list.c.i
+.PHONY : components/FreeRTOS/FreeRTOS-Kernel/list.c.i
 
-components/FreeRTOS-Kernel/list.s: components/FreeRTOS-Kernel/list.c.s
-.PHONY : components/FreeRTOS-Kernel/list.s
+components/FreeRTOS/FreeRTOS-Kernel/list.s: components/FreeRTOS/FreeRTOS-Kernel/list.c.s
+.PHONY : components/FreeRTOS/FreeRTOS-Kernel/list.s
 
 # target to generate assembly for a file
-components/FreeRTOS-Kernel/list.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/list.c.s
-.PHONY : components/FreeRTOS-Kernel/list.c.s
+components/FreeRTOS/FreeRTOS-Kernel/list.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/list.c.s
+.PHONY : components/FreeRTOS/FreeRTOS-Kernel/list.c.s
 
-components/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.obj: components/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c.obj
-.PHONY : components/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.obj
+components/FreeRTOS/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.obj: components/FreeRTOS/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c.obj
+.PHONY : components/FreeRTOS/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.obj
 
 # target to build an object file
-components/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c.obj
-.PHONY : components/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c.obj
+components/FreeRTOS/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c.obj
+.PHONY : components/FreeRTOS/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c.obj
 
-components/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.i: components/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c.i
-.PHONY : components/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.i
+components/FreeRTOS/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.i: components/FreeRTOS/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c.i
+.PHONY : components/FreeRTOS/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.i
 
 # target to preprocess a source file
-components/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c.i
-.PHONY : components/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c.i
+components/FreeRTOS/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c.i
+.PHONY : components/FreeRTOS/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c.i
 
-components/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.s: components/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c.s
-.PHONY : components/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.s
+components/FreeRTOS/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.s: components/FreeRTOS/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c.s
+.PHONY : components/FreeRTOS/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.s
 
 # target to generate assembly for a file
-components/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c.s
-.PHONY : components/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c.s
+components/FreeRTOS/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c.s
+.PHONY : components/FreeRTOS/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c.s
 
-components/FreeRTOS-Kernel/portable/MemMang/heap_4.obj: components/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj
-.PHONY : components/FreeRTOS-Kernel/portable/MemMang/heap_4.obj
+components/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.obj: components/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj
+.PHONY : components/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.obj
 
 # target to build an object file
-components/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj
-.PHONY : components/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj
+components/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj
+.PHONY : components/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj
 
-components/FreeRTOS-Kernel/portable/MemMang/heap_4.i: components/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i
-.PHONY : components/FreeRTOS-Kernel/portable/MemMang/heap_4.i
+components/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.i: components/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i
+.PHONY : components/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.i
 
 # target to preprocess a source file
-components/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i
-.PHONY : components/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i
+components/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i
+.PHONY : components/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i
 
-components/FreeRTOS-Kernel/portable/MemMang/heap_4.s: components/FreeRTOS-Kernel/portable/MemMang/heap_4.c.s
-.PHONY : components/FreeRTOS-Kernel/portable/MemMang/heap_4.s
+components/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.s: components/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c.s
+.PHONY : components/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.s
 
 # target to generate assembly for a file
-components/FreeRTOS-Kernel/portable/MemMang/heap_4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/portable/MemMang/heap_4.c.s
-.PHONY : components/FreeRTOS-Kernel/portable/MemMang/heap_4.c.s
+components/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c.s
+.PHONY : components/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c.s
 
-components/FreeRTOS-Kernel/queue.obj: components/FreeRTOS-Kernel/queue.c.obj
-.PHONY : components/FreeRTOS-Kernel/queue.obj
+components/FreeRTOS/FreeRTOS-Kernel/queue.obj: components/FreeRTOS/FreeRTOS-Kernel/queue.c.obj
+.PHONY : components/FreeRTOS/FreeRTOS-Kernel/queue.obj
 
 # target to build an object file
-components/FreeRTOS-Kernel/queue.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/queue.c.obj
-.PHONY : components/FreeRTOS-Kernel/queue.c.obj
+components/FreeRTOS/FreeRTOS-Kernel/queue.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/queue.c.obj
+.PHONY : components/FreeRTOS/FreeRTOS-Kernel/queue.c.obj
 
-components/FreeRTOS-Kernel/queue.i: components/FreeRTOS-Kernel/queue.c.i
-.PHONY : components/FreeRTOS-Kernel/queue.i
+components/FreeRTOS/FreeRTOS-Kernel/queue.i: components/FreeRTOS/FreeRTOS-Kernel/queue.c.i
+.PHONY : components/FreeRTOS/FreeRTOS-Kernel/queue.i
 
 # target to preprocess a source file
-components/FreeRTOS-Kernel/queue.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/queue.c.i
-.PHONY : components/FreeRTOS-Kernel/queue.c.i
+components/FreeRTOS/FreeRTOS-Kernel/queue.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/queue.c.i
+.PHONY : components/FreeRTOS/FreeRTOS-Kernel/queue.c.i
 
-components/FreeRTOS-Kernel/queue.s: components/FreeRTOS-Kernel/queue.c.s
-.PHONY : components/FreeRTOS-Kernel/queue.s
+components/FreeRTOS/FreeRTOS-Kernel/queue.s: components/FreeRTOS/FreeRTOS-Kernel/queue.c.s
+.PHONY : components/FreeRTOS/FreeRTOS-Kernel/queue.s
 
 # target to generate assembly for a file
-components/FreeRTOS-Kernel/queue.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/queue.c.s
-.PHONY : components/FreeRTOS-Kernel/queue.c.s
+components/FreeRTOS/FreeRTOS-Kernel/queue.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/queue.c.s
+.PHONY : components/FreeRTOS/FreeRTOS-Kernel/queue.c.s
 
-components/FreeRTOS-Kernel/stream_buffer.obj: components/FreeRTOS-Kernel/stream_buffer.c.obj
-.PHONY : components/FreeRTOS-Kernel/stream_buffer.obj
+components/FreeRTOS/FreeRTOS-Kernel/stream_buffer.obj: components/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c.obj
+.PHONY : components/FreeRTOS/FreeRTOS-Kernel/stream_buffer.obj
 
 # target to build an object file
-components/FreeRTOS-Kernel/stream_buffer.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/stream_buffer.c.obj
-.PHONY : components/FreeRTOS-Kernel/stream_buffer.c.obj
+components/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c.obj
+.PHONY : components/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c.obj
 
-components/FreeRTOS-Kernel/stream_buffer.i: components/FreeRTOS-Kernel/stream_buffer.c.i
-.PHONY : components/FreeRTOS-Kernel/stream_buffer.i
+components/FreeRTOS/FreeRTOS-Kernel/stream_buffer.i: components/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c.i
+.PHONY : components/FreeRTOS/FreeRTOS-Kernel/stream_buffer.i
 
 # target to preprocess a source file
-components/FreeRTOS-Kernel/stream_buffer.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/stream_buffer.c.i
-.PHONY : components/FreeRTOS-Kernel/stream_buffer.c.i
+components/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c.i
+.PHONY : components/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c.i
 
-components/FreeRTOS-Kernel/stream_buffer.s: components/FreeRTOS-Kernel/stream_buffer.c.s
-.PHONY : components/FreeRTOS-Kernel/stream_buffer.s
+components/FreeRTOS/FreeRTOS-Kernel/stream_buffer.s: components/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c.s
+.PHONY : components/FreeRTOS/FreeRTOS-Kernel/stream_buffer.s
 
 # target to generate assembly for a file
-components/FreeRTOS-Kernel/stream_buffer.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/stream_buffer.c.s
-.PHONY : components/FreeRTOS-Kernel/stream_buffer.c.s
+components/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c.s
+.PHONY : components/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c.s
 
-components/FreeRTOS-Kernel/tasks.obj: components/FreeRTOS-Kernel/tasks.c.obj
-.PHONY : components/FreeRTOS-Kernel/tasks.obj
+components/FreeRTOS/FreeRTOS-Kernel/tasks.obj: components/FreeRTOS/FreeRTOS-Kernel/tasks.c.obj
+.PHONY : components/FreeRTOS/FreeRTOS-Kernel/tasks.obj
 
 # target to build an object file
-components/FreeRTOS-Kernel/tasks.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/tasks.c.obj
-.PHONY : components/FreeRTOS-Kernel/tasks.c.obj
+components/FreeRTOS/FreeRTOS-Kernel/tasks.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/tasks.c.obj
+.PHONY : components/FreeRTOS/FreeRTOS-Kernel/tasks.c.obj
 
-components/FreeRTOS-Kernel/tasks.i: components/FreeRTOS-Kernel/tasks.c.i
-.PHONY : components/FreeRTOS-Kernel/tasks.i
+components/FreeRTOS/FreeRTOS-Kernel/tasks.i: components/FreeRTOS/FreeRTOS-Kernel/tasks.c.i
+.PHONY : components/FreeRTOS/FreeRTOS-Kernel/tasks.i
 
 # target to preprocess a source file
-components/FreeRTOS-Kernel/tasks.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/tasks.c.i
-.PHONY : components/FreeRTOS-Kernel/tasks.c.i
+components/FreeRTOS/FreeRTOS-Kernel/tasks.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/tasks.c.i
+.PHONY : components/FreeRTOS/FreeRTOS-Kernel/tasks.c.i
 
-components/FreeRTOS-Kernel/tasks.s: components/FreeRTOS-Kernel/tasks.c.s
-.PHONY : components/FreeRTOS-Kernel/tasks.s
+components/FreeRTOS/FreeRTOS-Kernel/tasks.s: components/FreeRTOS/FreeRTOS-Kernel/tasks.c.s
+.PHONY : components/FreeRTOS/FreeRTOS-Kernel/tasks.s
 
 # target to generate assembly for a file
-components/FreeRTOS-Kernel/tasks.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/tasks.c.s
-.PHONY : components/FreeRTOS-Kernel/tasks.c.s
+components/FreeRTOS/FreeRTOS-Kernel/tasks.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/tasks.c.s
+.PHONY : components/FreeRTOS/FreeRTOS-Kernel/tasks.c.s
 
-components/FreeRTOS-Kernel/timers.obj: components/FreeRTOS-Kernel/timers.c.obj
-.PHONY : components/FreeRTOS-Kernel/timers.obj
+components/FreeRTOS/FreeRTOS-Kernel/timers.obj: components/FreeRTOS/FreeRTOS-Kernel/timers.c.obj
+.PHONY : components/FreeRTOS/FreeRTOS-Kernel/timers.obj
 
 # target to build an object file
-components/FreeRTOS-Kernel/timers.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/timers.c.obj
-.PHONY : components/FreeRTOS-Kernel/timers.c.obj
+components/FreeRTOS/FreeRTOS-Kernel/timers.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/timers.c.obj
+.PHONY : components/FreeRTOS/FreeRTOS-Kernel/timers.c.obj
 
-components/FreeRTOS-Kernel/timers.i: components/FreeRTOS-Kernel/timers.c.i
-.PHONY : components/FreeRTOS-Kernel/timers.i
+components/FreeRTOS/FreeRTOS-Kernel/timers.i: components/FreeRTOS/FreeRTOS-Kernel/timers.c.i
+.PHONY : components/FreeRTOS/FreeRTOS-Kernel/timers.i
 
 # target to preprocess a source file
-components/FreeRTOS-Kernel/timers.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/timers.c.i
-.PHONY : components/FreeRTOS-Kernel/timers.c.i
+components/FreeRTOS/FreeRTOS-Kernel/timers.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/timers.c.i
+.PHONY : components/FreeRTOS/FreeRTOS-Kernel/timers.c.i
 
-components/FreeRTOS-Kernel/timers.s: components/FreeRTOS-Kernel/timers.c.s
-.PHONY : components/FreeRTOS-Kernel/timers.s
+components/FreeRTOS/FreeRTOS-Kernel/timers.s: components/FreeRTOS/FreeRTOS-Kernel/timers.c.s
+.PHONY : components/FreeRTOS/FreeRTOS-Kernel/timers.s
 
 # target to generate assembly for a file
-components/FreeRTOS-Kernel/timers.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/timers.c.s
-.PHONY : components/FreeRTOS-Kernel/timers.c.s
+components/FreeRTOS/FreeRTOS-Kernel/timers.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/timers.c.s
+.PHONY : components/FreeRTOS/FreeRTOS-Kernel/timers.c.s
+
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_ARP.obj: components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c.obj
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_ARP.obj
+
+# target to build an object file
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c.obj
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c.obj
+
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_ARP.i: components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c.i
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_ARP.i
+
+# target to preprocess a source file
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c.i
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c.i
+
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_ARP.s: components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c.s
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_ARP.s
+
+# target to generate assembly for a file
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c.s
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c.s
+
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.obj: components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c.obj
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.obj
+
+# target to build an object file
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c.obj
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c.obj
+
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.i: components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c.i
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.i
+
+# target to preprocess a source file
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c.i
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c.i
+
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.s: components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c.s
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.s
+
+# target to generate assembly for a file
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c.s
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c.s
+
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DNS.obj: components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c.obj
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DNS.obj
+
+# target to build an object file
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c.obj
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c.obj
+
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DNS.i: components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c.i
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DNS.i
+
+# target to preprocess a source file
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c.i
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c.i
+
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DNS.s: components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c.s
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DNS.s
+
+# target to generate assembly for a file
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c.s
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c.s
+
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_IP.obj: components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_IP.c.obj
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_IP.obj
+
+# target to build an object file
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_IP.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_IP.c.obj
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_IP.c.obj
+
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_IP.i: components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_IP.c.i
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_IP.i
+
+# target to preprocess a source file
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_IP.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_IP.c.i
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_IP.c.i
+
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_IP.s: components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_IP.c.s
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_IP.s
+
+# target to generate assembly for a file
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_IP.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_IP.c.s
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_IP.c.s
+
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.obj: components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c.obj
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.obj
+
+# target to build an object file
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c.obj
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c.obj
+
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.i: components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c.i
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.i
+
+# target to preprocess a source file
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c.i
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c.i
+
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.s: components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c.s
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.s
+
+# target to generate assembly for a file
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c.s
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c.s
+
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.obj: components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.c.obj
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.obj
+
+# target to build an object file
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.c.obj
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.c.obj
+
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.i: components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.c.i
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.i
+
+# target to preprocess a source file
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.c.i
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.c.i
+
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.s: components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.c.s
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.s
+
+# target to generate assembly for a file
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.c.s
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.c.s
+
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.obj: components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c.obj
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.obj
+
+# target to build an object file
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c.obj
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c.obj
+
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.i: components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c.i
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.i
+
+# target to preprocess a source file
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c.i
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c.i
+
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.s: components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c.s
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.s
+
+# target to generate assembly for a file
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c.s
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c.s
+
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.obj: components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.c.obj
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.obj
+
+# target to build an object file
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.c.obj
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.c.obj
+
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.i: components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.c.i
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.i
+
+# target to preprocess a source file
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.c.i
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.c.i
+
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.s: components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.c.s
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.s
+
+# target to generate assembly for a file
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.c.s
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.c.s
+
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.obj: components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.c.obj
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.obj
+
+# target to build an object file
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.c.obj
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.c.obj
+
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.i: components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.c.i
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.i
+
+# target to preprocess a source file
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.c.i
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.c.i
+
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.s: components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.c.s
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.s
+
+# target to generate assembly for a file
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.c.s
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.c.s
+
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_1.obj: components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_1.c.obj
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_1.obj
+
+# target to build an object file
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_1.c.obj
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_1.c.obj
+
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_1.i: components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_1.c.i
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_1.i
+
+# target to preprocess a source file
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_1.c.i
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_1.c.i
+
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_1.s: components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_1.c.s
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_1.s
+
+# target to generate assembly for a file
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_1.c.s
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_1.c.s
+
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.obj: components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.c.obj
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.obj
+
+# target to build an object file
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.c.obj
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.c.obj
+
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.i: components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.c.i
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.i
+
+# target to preprocess a source file
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.c.i
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.c.i
+
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.s: components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.c.s
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.s
+
+# target to generate assembly for a file
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.c.s
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.c.s
+
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/NetworkInterface.obj: components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/NetworkInterface.c.obj
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/NetworkInterface.obj
+
+# target to build an object file
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/NetworkInterface.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/NetworkInterface.c.obj
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/NetworkInterface.c.obj
+
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/NetworkInterface.i: components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/NetworkInterface.c.i
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/NetworkInterface.i
+
+# target to preprocess a source file
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/NetworkInterface.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/NetworkInterface.c.i
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/NetworkInterface.c.i
+
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/NetworkInterface.s: components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/NetworkInterface.c.s
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/NetworkInterface.s
+
+# target to generate assembly for a file
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/NetworkInterface.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/NetworkInterface.c.s
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/NetworkInterface.c.s
+
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/stm32fxx_hal_eth.obj: components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/stm32fxx_hal_eth.c.obj
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/stm32fxx_hal_eth.obj
+
+# target to build an object file
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/stm32fxx_hal_eth.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hal.dir/build.make CMakeFiles/hal.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/stm32fxx_hal_eth.c.obj
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/stm32fxx_hal_eth.c.obj
+
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/stm32fxx_hal_eth.i: components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/stm32fxx_hal_eth.c.i
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/stm32fxx_hal_eth.i
+
+# target to preprocess a source file
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/stm32fxx_hal_eth.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hal.dir/build.make CMakeFiles/hal.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/stm32fxx_hal_eth.c.i
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/stm32fxx_hal_eth.c.i
+
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/stm32fxx_hal_eth.s: components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/stm32fxx_hal_eth.c.s
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/stm32fxx_hal_eth.s
+
+# target to generate assembly for a file
+components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/stm32fxx_hal_eth.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hal.dir/build.make CMakeFiles/hal.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/stm32fxx_hal_eth.c.s
+.PHONY : components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/stm32fxx_hal_eth.c.s
 
 components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal.obj: components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal.c.obj
 .PHONY : components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal.obj
@@ -2037,6 +2349,174 @@ home/kjuszcza/magisterka/board_config/src/hal_msp.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.elf.dir/build.make CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/board_config/src/hal_msp.c.s
 .PHONY : home/kjuszcza/magisterka/board_config/src/hal_msp.c.s
 
+home/kjuszcza/magisterka/rhealstone/src/interrupt_latency.obj: home/kjuszcza/magisterka/rhealstone/src/interrupt_latency.c.obj
+.PHONY : home/kjuszcza/magisterka/rhealstone/src/interrupt_latency.obj
+
+# target to build an object file
+home/kjuszcza/magisterka/rhealstone/src/interrupt_latency.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.elf.dir/build.make CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/interrupt_latency.c.obj
+.PHONY : home/kjuszcza/magisterka/rhealstone/src/interrupt_latency.c.obj
+
+home/kjuszcza/magisterka/rhealstone/src/interrupt_latency.i: home/kjuszcza/magisterka/rhealstone/src/interrupt_latency.c.i
+.PHONY : home/kjuszcza/magisterka/rhealstone/src/interrupt_latency.i
+
+# target to preprocess a source file
+home/kjuszcza/magisterka/rhealstone/src/interrupt_latency.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.elf.dir/build.make CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/interrupt_latency.c.i
+.PHONY : home/kjuszcza/magisterka/rhealstone/src/interrupt_latency.c.i
+
+home/kjuszcza/magisterka/rhealstone/src/interrupt_latency.s: home/kjuszcza/magisterka/rhealstone/src/interrupt_latency.c.s
+.PHONY : home/kjuszcza/magisterka/rhealstone/src/interrupt_latency.s
+
+# target to generate assembly for a file
+home/kjuszcza/magisterka/rhealstone/src/interrupt_latency.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.elf.dir/build.make CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/interrupt_latency.c.s
+.PHONY : home/kjuszcza/magisterka/rhealstone/src/interrupt_latency.c.s
+
+home/kjuszcza/magisterka/rhealstone/src/semaphore_shuffle.obj: home/kjuszcza/magisterka/rhealstone/src/semaphore_shuffle.c.obj
+.PHONY : home/kjuszcza/magisterka/rhealstone/src/semaphore_shuffle.obj
+
+# target to build an object file
+home/kjuszcza/magisterka/rhealstone/src/semaphore_shuffle.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.elf.dir/build.make CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/semaphore_shuffle.c.obj
+.PHONY : home/kjuszcza/magisterka/rhealstone/src/semaphore_shuffle.c.obj
+
+home/kjuszcza/magisterka/rhealstone/src/semaphore_shuffle.i: home/kjuszcza/magisterka/rhealstone/src/semaphore_shuffle.c.i
+.PHONY : home/kjuszcza/magisterka/rhealstone/src/semaphore_shuffle.i
+
+# target to preprocess a source file
+home/kjuszcza/magisterka/rhealstone/src/semaphore_shuffle.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.elf.dir/build.make CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/semaphore_shuffle.c.i
+.PHONY : home/kjuszcza/magisterka/rhealstone/src/semaphore_shuffle.c.i
+
+home/kjuszcza/magisterka/rhealstone/src/semaphore_shuffle.s: home/kjuszcza/magisterka/rhealstone/src/semaphore_shuffle.c.s
+.PHONY : home/kjuszcza/magisterka/rhealstone/src/semaphore_shuffle.s
+
+# target to generate assembly for a file
+home/kjuszcza/magisterka/rhealstone/src/semaphore_shuffle.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.elf.dir/build.make CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/semaphore_shuffle.c.s
+.PHONY : home/kjuszcza/magisterka/rhealstone/src/semaphore_shuffle.c.s
+
+home/kjuszcza/magisterka/rhealstone/src/task_preemption.obj: home/kjuszcza/magisterka/rhealstone/src/task_preemption.c.obj
+.PHONY : home/kjuszcza/magisterka/rhealstone/src/task_preemption.obj
+
+# target to build an object file
+home/kjuszcza/magisterka/rhealstone/src/task_preemption.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.elf.dir/build.make CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/task_preemption.c.obj
+.PHONY : home/kjuszcza/magisterka/rhealstone/src/task_preemption.c.obj
+
+home/kjuszcza/magisterka/rhealstone/src/task_preemption.i: home/kjuszcza/magisterka/rhealstone/src/task_preemption.c.i
+.PHONY : home/kjuszcza/magisterka/rhealstone/src/task_preemption.i
+
+# target to preprocess a source file
+home/kjuszcza/magisterka/rhealstone/src/task_preemption.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.elf.dir/build.make CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/task_preemption.c.i
+.PHONY : home/kjuszcza/magisterka/rhealstone/src/task_preemption.c.i
+
+home/kjuszcza/magisterka/rhealstone/src/task_preemption.s: home/kjuszcza/magisterka/rhealstone/src/task_preemption.c.s
+.PHONY : home/kjuszcza/magisterka/rhealstone/src/task_preemption.s
+
+# target to generate assembly for a file
+home/kjuszcza/magisterka/rhealstone/src/task_preemption.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.elf.dir/build.make CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/task_preemption.c.s
+.PHONY : home/kjuszcza/magisterka/rhealstone/src/task_preemption.c.s
+
+home/kjuszcza/magisterka/rhealstone/src/task_switch.obj: home/kjuszcza/magisterka/rhealstone/src/task_switch.c.obj
+.PHONY : home/kjuszcza/magisterka/rhealstone/src/task_switch.obj
+
+# target to build an object file
+home/kjuszcza/magisterka/rhealstone/src/task_switch.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.elf.dir/build.make CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/task_switch.c.obj
+.PHONY : home/kjuszcza/magisterka/rhealstone/src/task_switch.c.obj
+
+home/kjuszcza/magisterka/rhealstone/src/task_switch.i: home/kjuszcza/magisterka/rhealstone/src/task_switch.c.i
+.PHONY : home/kjuszcza/magisterka/rhealstone/src/task_switch.i
+
+# target to preprocess a source file
+home/kjuszcza/magisterka/rhealstone/src/task_switch.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.elf.dir/build.make CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/task_switch.c.i
+.PHONY : home/kjuszcza/magisterka/rhealstone/src/task_switch.c.i
+
+home/kjuszcza/magisterka/rhealstone/src/task_switch.s: home/kjuszcza/magisterka/rhealstone/src/task_switch.c.s
+.PHONY : home/kjuszcza/magisterka/rhealstone/src/task_switch.s
+
+# target to generate assembly for a file
+home/kjuszcza/magisterka/rhealstone/src/task_switch.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.elf.dir/build.make CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/task_switch.c.s
+.PHONY : home/kjuszcza/magisterka/rhealstone/src/task_switch.c.s
+
+src/TCPEchoServer.obj: src/TCPEchoServer.c.obj
+.PHONY : src/TCPEchoServer.obj
+
+# target to build an object file
+src/TCPEchoServer.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.elf.dir/build.make CMakeFiles/main.elf.dir/src/TCPEchoServer.c.obj
+.PHONY : src/TCPEchoServer.c.obj
+
+src/TCPEchoServer.i: src/TCPEchoServer.c.i
+.PHONY : src/TCPEchoServer.i
+
+# target to preprocess a source file
+src/TCPEchoServer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.elf.dir/build.make CMakeFiles/main.elf.dir/src/TCPEchoServer.c.i
+.PHONY : src/TCPEchoServer.c.i
+
+src/TCPEchoServer.s: src/TCPEchoServer.c.s
+.PHONY : src/TCPEchoServer.s
+
+# target to generate assembly for a file
+src/TCPEchoServer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.elf.dir/build.make CMakeFiles/main.elf.dir/src/TCPEchoServer.c.s
+.PHONY : src/TCPEchoServer.c.s
+
+src/TCPExample.obj: src/TCPExample.c.obj
+.PHONY : src/TCPExample.obj
+
+# target to build an object file
+src/TCPExample.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.elf.dir/build.make CMakeFiles/main.elf.dir/src/TCPExample.c.obj
+.PHONY : src/TCPExample.c.obj
+
+src/TCPExample.i: src/TCPExample.c.i
+.PHONY : src/TCPExample.i
+
+# target to preprocess a source file
+src/TCPExample.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.elf.dir/build.make CMakeFiles/main.elf.dir/src/TCPExample.c.i
+.PHONY : src/TCPExample.c.i
+
+src/TCPExample.s: src/TCPExample.c.s
+.PHONY : src/TCPExample.s
+
+# target to generate assembly for a file
+src/TCPExample.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.elf.dir/build.make CMakeFiles/main.elf.dir/src/TCPExample.c.s
+.PHONY : src/TCPExample.c.s
+
+src/libc_hooks.obj: src/libc_hooks.c.obj
+.PHONY : src/libc_hooks.obj
+
+# target to build an object file
+src/libc_hooks.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.elf.dir/build.make CMakeFiles/main.elf.dir/src/libc_hooks.c.obj
+.PHONY : src/libc_hooks.c.obj
+
+src/libc_hooks.i: src/libc_hooks.c.i
+.PHONY : src/libc_hooks.i
+
+# target to preprocess a source file
+src/libc_hooks.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.elf.dir/build.make CMakeFiles/main.elf.dir/src/libc_hooks.c.i
+.PHONY : src/libc_hooks.c.i
+
+src/libc_hooks.s: src/libc_hooks.c.s
+.PHONY : src/libc_hooks.s
+
+# target to generate assembly for a file
+src/libc_hooks.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.elf.dir/build.make CMakeFiles/main.elf.dir/src/libc_hooks.c.s
+.PHONY : src/libc_hooks.c.s
+
 src/main.obj: src/main.c.obj
 .PHONY : src/main.obj
 
@@ -2060,6 +2540,30 @@ src/main.s: src/main.c.s
 src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.elf.dir/build.make CMakeFiles/main.elf.dir/src/main.c.s
 .PHONY : src/main.c.s
+
+src/rtos_portable.obj: src/rtos_portable.c.obj
+.PHONY : src/rtos_portable.obj
+
+# target to build an object file
+src/rtos_portable.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.elf.dir/build.make CMakeFiles/main.elf.dir/src/rtos_portable.c.obj
+.PHONY : src/rtos_portable.c.obj
+
+src/rtos_portable.i: src/rtos_portable.c.i
+.PHONY : src/rtos_portable.i
+
+# target to preprocess a source file
+src/rtos_portable.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.elf.dir/build.make CMakeFiles/main.elf.dir/src/rtos_portable.c.i
+.PHONY : src/rtos_portable.c.i
+
+src/rtos_portable.s: src/rtos_portable.c.s
+.PHONY : src/rtos_portable.s
+
+# target to generate assembly for a file
+src/rtos_portable.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.elf.dir/build.make CMakeFiles/main.elf.dir/src/rtos_portable.c.s
+.PHONY : src/rtos_portable.c.s
 
 src/stm32f2xx_it.obj: src/stm32f2xx_it.c.obj
 .PHONY : src/stm32f2xx_it.obj
@@ -2102,33 +2606,72 @@ help:
 	@echo "... components/CMSIS/Device/ST/STM32F2xx/Source/Templates/system_stm32f2xx.obj"
 	@echo "... components/CMSIS/Device/ST/STM32F2xx/Source/Templates/system_stm32f2xx.i"
 	@echo "... components/CMSIS/Device/ST/STM32F2xx/Source/Templates/system_stm32f2xx.s"
-	@echo "... components/FreeRTOS-Kernel/croutine.obj"
-	@echo "... components/FreeRTOS-Kernel/croutine.i"
-	@echo "... components/FreeRTOS-Kernel/croutine.s"
-	@echo "... components/FreeRTOS-Kernel/event_groups.obj"
-	@echo "... components/FreeRTOS-Kernel/event_groups.i"
-	@echo "... components/FreeRTOS-Kernel/event_groups.s"
-	@echo "... components/FreeRTOS-Kernel/list.obj"
-	@echo "... components/FreeRTOS-Kernel/list.i"
-	@echo "... components/FreeRTOS-Kernel/list.s"
-	@echo "... components/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.obj"
-	@echo "... components/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.i"
-	@echo "... components/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.s"
-	@echo "... components/FreeRTOS-Kernel/portable/MemMang/heap_4.obj"
-	@echo "... components/FreeRTOS-Kernel/portable/MemMang/heap_4.i"
-	@echo "... components/FreeRTOS-Kernel/portable/MemMang/heap_4.s"
-	@echo "... components/FreeRTOS-Kernel/queue.obj"
-	@echo "... components/FreeRTOS-Kernel/queue.i"
-	@echo "... components/FreeRTOS-Kernel/queue.s"
-	@echo "... components/FreeRTOS-Kernel/stream_buffer.obj"
-	@echo "... components/FreeRTOS-Kernel/stream_buffer.i"
-	@echo "... components/FreeRTOS-Kernel/stream_buffer.s"
-	@echo "... components/FreeRTOS-Kernel/tasks.obj"
-	@echo "... components/FreeRTOS-Kernel/tasks.i"
-	@echo "... components/FreeRTOS-Kernel/tasks.s"
-	@echo "... components/FreeRTOS-Kernel/timers.obj"
-	@echo "... components/FreeRTOS-Kernel/timers.i"
-	@echo "... components/FreeRTOS-Kernel/timers.s"
+	@echo "... components/FreeRTOS/FreeRTOS-Kernel/croutine.obj"
+	@echo "... components/FreeRTOS/FreeRTOS-Kernel/croutine.i"
+	@echo "... components/FreeRTOS/FreeRTOS-Kernel/croutine.s"
+	@echo "... components/FreeRTOS/FreeRTOS-Kernel/event_groups.obj"
+	@echo "... components/FreeRTOS/FreeRTOS-Kernel/event_groups.i"
+	@echo "... components/FreeRTOS/FreeRTOS-Kernel/event_groups.s"
+	@echo "... components/FreeRTOS/FreeRTOS-Kernel/list.obj"
+	@echo "... components/FreeRTOS/FreeRTOS-Kernel/list.i"
+	@echo "... components/FreeRTOS/FreeRTOS-Kernel/list.s"
+	@echo "... components/FreeRTOS/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.obj"
+	@echo "... components/FreeRTOS/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.i"
+	@echo "... components/FreeRTOS/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.s"
+	@echo "... components/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.obj"
+	@echo "... components/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.i"
+	@echo "... components/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.s"
+	@echo "... components/FreeRTOS/FreeRTOS-Kernel/queue.obj"
+	@echo "... components/FreeRTOS/FreeRTOS-Kernel/queue.i"
+	@echo "... components/FreeRTOS/FreeRTOS-Kernel/queue.s"
+	@echo "... components/FreeRTOS/FreeRTOS-Kernel/stream_buffer.obj"
+	@echo "... components/FreeRTOS/FreeRTOS-Kernel/stream_buffer.i"
+	@echo "... components/FreeRTOS/FreeRTOS-Kernel/stream_buffer.s"
+	@echo "... components/FreeRTOS/FreeRTOS-Kernel/tasks.obj"
+	@echo "... components/FreeRTOS/FreeRTOS-Kernel/tasks.i"
+	@echo "... components/FreeRTOS/FreeRTOS-Kernel/tasks.s"
+	@echo "... components/FreeRTOS/FreeRTOS-Kernel/timers.obj"
+	@echo "... components/FreeRTOS/FreeRTOS-Kernel/timers.i"
+	@echo "... components/FreeRTOS/FreeRTOS-Kernel/timers.s"
+	@echo "... components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_ARP.obj"
+	@echo "... components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_ARP.i"
+	@echo "... components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_ARP.s"
+	@echo "... components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.obj"
+	@echo "... components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.i"
+	@echo "... components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.s"
+	@echo "... components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DNS.obj"
+	@echo "... components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DNS.i"
+	@echo "... components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DNS.s"
+	@echo "... components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_IP.obj"
+	@echo "... components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_IP.i"
+	@echo "... components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_IP.s"
+	@echo "... components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.obj"
+	@echo "... components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.i"
+	@echo "... components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.s"
+	@echo "... components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.obj"
+	@echo "... components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.i"
+	@echo "... components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.s"
+	@echo "... components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.obj"
+	@echo "... components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.i"
+	@echo "... components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.s"
+	@echo "... components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.obj"
+	@echo "... components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.i"
+	@echo "... components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.s"
+	@echo "... components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.obj"
+	@echo "... components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.i"
+	@echo "... components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.s"
+	@echo "... components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_1.obj"
+	@echo "... components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_1.i"
+	@echo "... components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_1.s"
+	@echo "... components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.obj"
+	@echo "... components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.i"
+	@echo "... components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.s"
+	@echo "... components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/NetworkInterface.obj"
+	@echo "... components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/NetworkInterface.i"
+	@echo "... components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/NetworkInterface.s"
+	@echo "... components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/stm32fxx_hal_eth.obj"
+	@echo "... components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/stm32fxx_hal_eth.i"
+	@echo "... components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/stm32fxx_hal_eth.s"
 	@echo "... components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal.obj"
 	@echo "... components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal.i"
 	@echo "... components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal.s"
@@ -2330,9 +2873,33 @@ help:
 	@echo "... home/kjuszcza/magisterka/board_config/src/hal_msp.obj"
 	@echo "... home/kjuszcza/magisterka/board_config/src/hal_msp.i"
 	@echo "... home/kjuszcza/magisterka/board_config/src/hal_msp.s"
+	@echo "... home/kjuszcza/magisterka/rhealstone/src/interrupt_latency.obj"
+	@echo "... home/kjuszcza/magisterka/rhealstone/src/interrupt_latency.i"
+	@echo "... home/kjuszcza/magisterka/rhealstone/src/interrupt_latency.s"
+	@echo "... home/kjuszcza/magisterka/rhealstone/src/semaphore_shuffle.obj"
+	@echo "... home/kjuszcza/magisterka/rhealstone/src/semaphore_shuffle.i"
+	@echo "... home/kjuszcza/magisterka/rhealstone/src/semaphore_shuffle.s"
+	@echo "... home/kjuszcza/magisterka/rhealstone/src/task_preemption.obj"
+	@echo "... home/kjuszcza/magisterka/rhealstone/src/task_preemption.i"
+	@echo "... home/kjuszcza/magisterka/rhealstone/src/task_preemption.s"
+	@echo "... home/kjuszcza/magisterka/rhealstone/src/task_switch.obj"
+	@echo "... home/kjuszcza/magisterka/rhealstone/src/task_switch.i"
+	@echo "... home/kjuszcza/magisterka/rhealstone/src/task_switch.s"
+	@echo "... src/TCPEchoServer.obj"
+	@echo "... src/TCPEchoServer.i"
+	@echo "... src/TCPEchoServer.s"
+	@echo "... src/TCPExample.obj"
+	@echo "... src/TCPExample.i"
+	@echo "... src/TCPExample.s"
+	@echo "... src/libc_hooks.obj"
+	@echo "... src/libc_hooks.i"
+	@echo "... src/libc_hooks.s"
 	@echo "... src/main.obj"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/rtos_portable.obj"
+	@echo "... src/rtos_portable.i"
+	@echo "... src/rtos_portable.s"
 	@echo "... src/stm32f2xx_it.obj"
 	@echo "... src/stm32f2xx_it.i"
 	@echo "... src/stm32f2xx_it.s"

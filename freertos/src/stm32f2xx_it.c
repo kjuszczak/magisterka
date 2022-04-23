@@ -186,8 +186,8 @@
 // /* USER CODE BEGIN SysTick_IRQn 0 */
  
 // /* USER CODE END SysTick_IRQn 0 */
-    xPortSysTickHandler();
     HAL_IncTick();
+    xPortSysTickHandler();
 // /* USER CODE BEGIN SysTick_IRQn 1 */
  
 // /* USER CODE END SysTick_IRQn 1 */

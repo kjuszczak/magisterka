@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/stm32fxx_hal_eth.c" "CMakeFiles/hal.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/stm32fxx_hal_eth.c.obj" "gcc" "CMakeFiles/hal.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/stm32fxx_hal_eth.c.obj.d"
   "/home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal.c" "CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal.c.obj" "gcc" "CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal.c.obj.d"
   "/home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_adc.c" "CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_adc.c.obj" "gcc" "CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_adc.c.obj.d"
   "/home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_adc_ex.c" "CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_adc_ex.c.obj" "gcc" "CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_adc_ex.c.obj.d"

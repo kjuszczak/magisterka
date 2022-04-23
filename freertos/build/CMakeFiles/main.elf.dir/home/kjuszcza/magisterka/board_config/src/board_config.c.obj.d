@@ -1,6 +1,7 @@
 CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/board_config/src/board_config.c.obj: \
  /home/kjuszcza/magisterka/board_config/src/board_config.c \
  /home/kjuszcza/magisterka/freertos/../board_config/include/board_config.h \
+ /home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/lib/gcc/arm-zephyr-eabi/10.3.0/include/stdarg.h \
  /home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/lib/gcc/arm-zephyr-eabi/10.3.0/include/stdint.h \
  /home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/stdint.h \
  /home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/machine/_default_types.h \
@@ -29,24 +30,31 @@ CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/board_config/src/board_config.c
  /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_dma.h \
  /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_dma_ex.h \
  /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_cortex.h \
+ /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/stm32f2xx_hal_eth.h \
+ /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/stm32fxx_hal_eth.h \
+ /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_def.h \
  /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_flash.h \
  /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_flash_ex.h \
  /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_pwr.h \
  /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_pwr_ex.h \
  /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_rtc.h \
  /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_rtc_ex.h \
+ /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_tim.h \
+ /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_tim_ex.h \
  /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_uart.h \
- /home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/string.h \
- /home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/_ansi.h \
+ /home/kjuszcza/magisterka/freertos/../board_config/include/nanoprintf.h \
+ /home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/inttypes.h \
  /home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/newlib.h \
  /home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys/config.h \
  /home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/machine/ieeefp.h \
+ /home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/_ansi.h \
+ /home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys/_locale.h \
+ /home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/string.h \
  /home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys/reent.h \
  /home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/_ansi.h \
  /home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys/_types.h \
  /home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/machine/_types.h \
  /home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys/lock.h \
  /home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys/cdefs.h \
- /home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys/_locale.h \
  /home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/strings.h \
  /home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys/string.h

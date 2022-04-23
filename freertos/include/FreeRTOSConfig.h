@@ -10,6 +10,7 @@ your application. */
 
 extern uint32_t SystemCoreClock;
 
+#define configUSE_TIME_SLICING			0
 #define configUSE_PREEMPTION			1
 #define configUSE_IDLE_HOOK				0
 #define configUSE_TICK_HOOK				0
@@ -75,9 +76,63 @@ to all Cortex-M ports, and do not rely on any particular library functions. */
 /* !!!! configMAX_SYSCALL_INTERRUPT_PRIORITY must not be set to zero !!!!
 See http://www.FreeRTOS.org/RTOS-Cortex-M3-M4.html. */
 #define configMAX_SYSCALL_INTERRUPT_PRIORITY 	( configLIBRARY_MAX_SYSCALL_INTERRUPT_PRIORITY << (8 - configPRIO_BITS) )
-	
+
 /* Normal assert() semantics without relying on the provision of an assert.h
 header file. */
-#define configASSERT( x ) if( ( x ) == 0 ) { taskDISABLE_INTERRUPTS(); for( ;; ); }
+// #define configASSERT( x ) if( ( x ) == 0 ) { taskDISABLE_INTERRUPTS(); for( ;; ); }
+#define configASSERT( x ) if( ( x ) == 0 ) { ; }
+
+
+/* The address of an echo server that will be used by the two demo echo client
+tasks.
+http://www.freertos.org/FreeRTOS-Plus/FreeRTOS_Plus_TCP/TCP_Echo_Clients.html
+http://www.freertos.org/FreeRTOS-Plus/FreeRTOS_Plus_TCP/UDP_Echo_Clients.html */
+#define configECHO_SERVER_ADDR0	192
+#define configECHO_SERVER_ADDR1 168
+#define configECHO_SERVER_ADDR2 0
+#define configECHO_SERVER_ADDR3 17
+
+/* MAC address configuration. */
+#define configMAC_ADDR0		0x00
+#define configMAC_ADDR1		0x80
+#define configMAC_ADDR2		0xE1
+#define configMAC_ADDR3		0x00
+#define configMAC_ADDR4		0x00
+#define configMAC_ADDR5		0x00
+
+/* Default IP address configuration.  Used in ipconfigUSE_DNS is set to 0, or
+ipconfigUSE_DNS is set to 1 but a DNS server cannot be contacted. */
+#define configIP_ADDR0		192
+#define configIP_ADDR1		168
+#define configIP_ADDR2		0
+#define configIP_ADDR3		20
+
+/* Default gateway IP address configuration.  Used in ipconfigUSE_DNS is set to
+0, or ipconfigUSE_DNS is set to 1 but a DNS server cannot be contacted. */
+#define configGATEWAY_ADDR0	192
+#define configGATEWAY_ADDR1	168
+#define configGATEWAY_ADDR2	0
+#define configGATEWAY_ADDR3	30
+
+/* Default DNS server configuration.  OpenDNS addresses are 208.67.222.222 and
+208.67.220.220.  Used if ipconfigUSE_DNS is set to 0, or ipconfigUSE_DNS is set
+to 1 but a DNS server cannot be contacted.*/
+#define configDNS_SERVER_ADDR0 	208
+#define configDNS_SERVER_ADDR1 	67
+#define configDNS_SERVER_ADDR2 	222
+#define configDNS_SERVER_ADDR3 	222
+
+/* Default netmask configuration.  Used in ipconfigUSE_DNS is set to 0, or
+ipconfigUSE_DNS is set to 1 but a DNS server cannot be contacted. */
+#define configNET_MASK0		255
+#define configNET_MASK1		255
+#define configNET_MASK2		255
+#define configNET_MASK3		0
+
+/* The UDP port to which print messages are sent. */
+#define configPRINT_PORT	( 15000 )
+
+#define configSUPPORT_DYNAMIC_ALLOCATION        1
+#define configSUPPORT_STATIC_ALLOCATION         0
 
 #endif /* FREERTOS_CONFIG_H */

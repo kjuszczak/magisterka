@@ -16,17 +16,23 @@ set(CMAKE_ASM_COMPILER_ID "GNU")
 set(CMAKE_TARGET_DEFINITIONS_ASM
   "HSE_VALUE=8000000"
   "STM32F207xx"
+  "STM32F2xx"
   )
 
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "../include"
   "../../board_config/include"
-  "../components/FreeRTOS-Kernel/include"
-  "../components/FreeRTOS-Kernel/portable/GCC/ARM_CM3"
+  "../../rhealstone/include"
+  "../components/FreeRTOS/FreeRTOS-Kernel/include"
+  "../components/FreeRTOS/FreeRTOS-Kernel/portable/GCC/ARM_CM3"
+  "../components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/include"
+  "../components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/Compiler/GCC"
+  "../components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/include"
   "../components/STM32F2xx_HAL_Driver/Inc"
   "../components/CMSIS/Device/ST/STM32F2xx/Include"
   "../components/CMSIS/Core/Include"
+  "../components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx"
   )
 
 # The set of dependency files which are needed:
@@ -35,7 +41,15 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/kjuszcza/magisterka/board_config/src/board_config.c" "CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/board_config/src/board_config.c.obj" "gcc" "CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/board_config/src/board_config.c.obj.d"
   "/home/kjuszcza/magisterka/board_config/src/hal_it.c" "CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/board_config/src/hal_it.c.obj" "gcc" "CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/board_config/src/hal_it.c.obj.d"
   "/home/kjuszcza/magisterka/board_config/src/hal_msp.c" "CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/board_config/src/hal_msp.c.obj" "gcc" "CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/board_config/src/hal_msp.c.obj.d"
+  "/home/kjuszcza/magisterka/rhealstone/src/interrupt_latency.c" "CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/interrupt_latency.c.obj" "gcc" "CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/interrupt_latency.c.obj.d"
+  "/home/kjuszcza/magisterka/rhealstone/src/semaphore_shuffle.c" "CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/semaphore_shuffle.c.obj" "gcc" "CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/semaphore_shuffle.c.obj.d"
+  "/home/kjuszcza/magisterka/rhealstone/src/task_preemption.c" "CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/task_preemption.c.obj" "gcc" "CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/task_preemption.c.obj.d"
+  "/home/kjuszcza/magisterka/rhealstone/src/task_switch.c" "CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/task_switch.c.obj" "gcc" "CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/task_switch.c.obj.d"
+  "/home/kjuszcza/magisterka/freertos/src/TCPEchoServer.c" "CMakeFiles/main.elf.dir/src/TCPEchoServer.c.obj" "gcc" "CMakeFiles/main.elf.dir/src/TCPEchoServer.c.obj.d"
+  "/home/kjuszcza/magisterka/freertos/src/TCPExample.c" "CMakeFiles/main.elf.dir/src/TCPExample.c.obj" "gcc" "CMakeFiles/main.elf.dir/src/TCPExample.c.obj.d"
+  "/home/kjuszcza/magisterka/freertos/src/libc_hooks.c" "CMakeFiles/main.elf.dir/src/libc_hooks.c.obj" "gcc" "CMakeFiles/main.elf.dir/src/libc_hooks.c.obj.d"
   "/home/kjuszcza/magisterka/freertos/src/main.c" "CMakeFiles/main.elf.dir/src/main.c.obj" "gcc" "CMakeFiles/main.elf.dir/src/main.c.obj.d"
+  "/home/kjuszcza/magisterka/freertos/src/rtos_portable.c" "CMakeFiles/main.elf.dir/src/rtos_portable.c.obj" "gcc" "CMakeFiles/main.elf.dir/src/rtos_portable.c.obj.d"
   "/home/kjuszcza/magisterka/freertos/src/stm32f2xx_it.c" "CMakeFiles/main.elf.dir/src/stm32f2xx_it.c.obj" "gcc" "CMakeFiles/main.elf.dir/src/stm32f2xx_it.c.obj.d"
   )
 

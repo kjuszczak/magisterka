@@ -28,10 +28,15 @@ CMakeFiles/hal.dir/components/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_cortex.c.ob
  /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_dma.h \
  /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_dma_ex.h \
  /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_cortex.h \
+ /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/stm32f2xx_hal_eth.h \
+ /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/stm32fxx_hal_eth.h \
+ /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_def.h \
  /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_flash.h \
  /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_flash_ex.h \
  /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_pwr.h \
  /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_pwr_ex.h \
  /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_rtc.h \
  /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_rtc_ex.h \
+ /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_tim.h \
+ /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_tim_ex.h \
  /home/kjuszcza/magisterka/freertos/components/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_uart.h

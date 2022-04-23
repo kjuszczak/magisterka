@@ -69,159 +69,351 @@ include CMakeFiles/rtos.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/rtos.dir/flags.make
 
-CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/croutine.c.obj: CMakeFiles/rtos.dir/flags.make
-CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/croutine.c.obj: ../components/FreeRTOS-Kernel/croutine.c
-CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/croutine.c.obj: CMakeFiles/rtos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/croutine.c.obj"
-	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/croutine.c.obj -MF CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/croutine.c.obj.d -o CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/croutine.c.obj -c /home/kjuszcza/magisterka/freertos/components/FreeRTOS-Kernel/croutine.c
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/croutine.c.obj: CMakeFiles/rtos.dir/flags.make
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/croutine.c.obj: ../components/FreeRTOS/FreeRTOS-Kernel/croutine.c
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/croutine.c.obj: CMakeFiles/rtos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/croutine.c.obj"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/croutine.c.obj -MF CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/croutine.c.obj.d -o CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/croutine.c.obj -c /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Kernel/croutine.c
 
-CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/croutine.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/croutine.c.i"
-	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kjuszcza/magisterka/freertos/components/FreeRTOS-Kernel/croutine.c > CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/croutine.c.i
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/croutine.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/croutine.c.i"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Kernel/croutine.c > CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/croutine.c.i
 
-CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/croutine.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/croutine.c.s"
-	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kjuszcza/magisterka/freertos/components/FreeRTOS-Kernel/croutine.c -o CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/croutine.c.s
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/croutine.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/croutine.c.s"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Kernel/croutine.c -o CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/croutine.c.s
 
-CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/event_groups.c.obj: CMakeFiles/rtos.dir/flags.make
-CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/event_groups.c.obj: ../components/FreeRTOS-Kernel/event_groups.c
-CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/event_groups.c.obj: CMakeFiles/rtos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/event_groups.c.obj"
-	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/event_groups.c.obj -MF CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/event_groups.c.obj.d -o CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/event_groups.c.obj -c /home/kjuszcza/magisterka/freertos/components/FreeRTOS-Kernel/event_groups.c
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/event_groups.c.obj: CMakeFiles/rtos.dir/flags.make
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/event_groups.c.obj: ../components/FreeRTOS/FreeRTOS-Kernel/event_groups.c
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/event_groups.c.obj: CMakeFiles/rtos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/event_groups.c.obj"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/event_groups.c.obj -MF CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/event_groups.c.obj.d -o CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/event_groups.c.obj -c /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Kernel/event_groups.c
 
-CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/event_groups.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/event_groups.c.i"
-	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kjuszcza/magisterka/freertos/components/FreeRTOS-Kernel/event_groups.c > CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/event_groups.c.i
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/event_groups.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/event_groups.c.i"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Kernel/event_groups.c > CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/event_groups.c.i
 
-CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/event_groups.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/event_groups.c.s"
-	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kjuszcza/magisterka/freertos/components/FreeRTOS-Kernel/event_groups.c -o CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/event_groups.c.s
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/event_groups.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/event_groups.c.s"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Kernel/event_groups.c -o CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/event_groups.c.s
 
-CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/list.c.obj: CMakeFiles/rtos.dir/flags.make
-CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/list.c.obj: ../components/FreeRTOS-Kernel/list.c
-CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/list.c.obj: CMakeFiles/rtos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/list.c.obj"
-	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/list.c.obj -MF CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/list.c.obj.d -o CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/list.c.obj -c /home/kjuszcza/magisterka/freertos/components/FreeRTOS-Kernel/list.c
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/list.c.obj: CMakeFiles/rtos.dir/flags.make
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/list.c.obj: ../components/FreeRTOS/FreeRTOS-Kernel/list.c
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/list.c.obj: CMakeFiles/rtos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/list.c.obj"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/list.c.obj -MF CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/list.c.obj.d -o CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/list.c.obj -c /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Kernel/list.c
 
-CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/list.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/list.c.i"
-	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kjuszcza/magisterka/freertos/components/FreeRTOS-Kernel/list.c > CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/list.c.i
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/list.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/list.c.i"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Kernel/list.c > CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/list.c.i
 
-CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/list.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/list.c.s"
-	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kjuszcza/magisterka/freertos/components/FreeRTOS-Kernel/list.c -o CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/list.c.s
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/list.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/list.c.s"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Kernel/list.c -o CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/list.c.s
 
-CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c.obj: CMakeFiles/rtos.dir/flags.make
-CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c.obj: ../components/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c
-CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c.obj: CMakeFiles/rtos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c.obj"
-	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c.obj -MF CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c.obj.d -o CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c.obj -c /home/kjuszcza/magisterka/freertos/components/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c.obj: CMakeFiles/rtos.dir/flags.make
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c.obj: ../components/FreeRTOS/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c.obj: CMakeFiles/rtos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c.obj"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c.obj -MF CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c.obj.d -o CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c.obj -c /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c
 
-CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c.i"
-	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kjuszcza/magisterka/freertos/components/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c > CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c.i
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c.i"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c > CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c.i
 
-CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c.s"
-	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kjuszcza/magisterka/freertos/components/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c -o CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c.s
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c.s"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c -o CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c.s
 
-CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj: CMakeFiles/rtos.dir/flags.make
-CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj: ../components/FreeRTOS-Kernel/portable/MemMang/heap_4.c
-CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj: CMakeFiles/rtos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj"
-	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj -MF CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj.d -o CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj -c /home/kjuszcza/magisterka/freertos/components/FreeRTOS-Kernel/portable/MemMang/heap_4.c
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj: CMakeFiles/rtos.dir/flags.make
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj: ../components/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj: CMakeFiles/rtos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj -MF CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj.d -o CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj -c /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c
 
-CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i"
-	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kjuszcza/magisterka/freertos/components/FreeRTOS-Kernel/portable/MemMang/heap_4.c > CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c > CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i
 
-CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/portable/MemMang/heap_4.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/portable/MemMang/heap_4.c.s"
-	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kjuszcza/magisterka/freertos/components/FreeRTOS-Kernel/portable/MemMang/heap_4.c -o CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/portable/MemMang/heap_4.c.s
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c.s"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c -o CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c.s
 
-CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/queue.c.obj: CMakeFiles/rtos.dir/flags.make
-CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/queue.c.obj: ../components/FreeRTOS-Kernel/queue.c
-CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/queue.c.obj: CMakeFiles/rtos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/queue.c.obj"
-	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/queue.c.obj -MF CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/queue.c.obj.d -o CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/queue.c.obj -c /home/kjuszcza/magisterka/freertos/components/FreeRTOS-Kernel/queue.c
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/queue.c.obj: CMakeFiles/rtos.dir/flags.make
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/queue.c.obj: ../components/FreeRTOS/FreeRTOS-Kernel/queue.c
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/queue.c.obj: CMakeFiles/rtos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/queue.c.obj"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/queue.c.obj -MF CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/queue.c.obj.d -o CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/queue.c.obj -c /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Kernel/queue.c
 
-CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/queue.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/queue.c.i"
-	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kjuszcza/magisterka/freertos/components/FreeRTOS-Kernel/queue.c > CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/queue.c.i
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/queue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/queue.c.i"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Kernel/queue.c > CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/queue.c.i
 
-CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/queue.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/queue.c.s"
-	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kjuszcza/magisterka/freertos/components/FreeRTOS-Kernel/queue.c -o CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/queue.c.s
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/queue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/queue.c.s"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Kernel/queue.c -o CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/queue.c.s
 
-CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/stream_buffer.c.obj: CMakeFiles/rtos.dir/flags.make
-CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/stream_buffer.c.obj: ../components/FreeRTOS-Kernel/stream_buffer.c
-CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/stream_buffer.c.obj: CMakeFiles/rtos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/stream_buffer.c.obj"
-	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/stream_buffer.c.obj -MF CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/stream_buffer.c.obj.d -o CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/stream_buffer.c.obj -c /home/kjuszcza/magisterka/freertos/components/FreeRTOS-Kernel/stream_buffer.c
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c.obj: CMakeFiles/rtos.dir/flags.make
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c.obj: ../components/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c.obj: CMakeFiles/rtos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c.obj"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c.obj -MF CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c.obj.d -o CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c.obj -c /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c
 
-CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/stream_buffer.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/stream_buffer.c.i"
-	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kjuszcza/magisterka/freertos/components/FreeRTOS-Kernel/stream_buffer.c > CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/stream_buffer.c.i
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c.i"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c > CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c.i
 
-CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/stream_buffer.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/stream_buffer.c.s"
-	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kjuszcza/magisterka/freertos/components/FreeRTOS-Kernel/stream_buffer.c -o CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/stream_buffer.c.s
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c.s"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c -o CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c.s
 
-CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/tasks.c.obj: CMakeFiles/rtos.dir/flags.make
-CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/tasks.c.obj: ../components/FreeRTOS-Kernel/tasks.c
-CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/tasks.c.obj: CMakeFiles/rtos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/tasks.c.obj"
-	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/tasks.c.obj -MF CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/tasks.c.obj.d -o CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/tasks.c.obj -c /home/kjuszcza/magisterka/freertos/components/FreeRTOS-Kernel/tasks.c
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/tasks.c.obj: CMakeFiles/rtos.dir/flags.make
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/tasks.c.obj: ../components/FreeRTOS/FreeRTOS-Kernel/tasks.c
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/tasks.c.obj: CMakeFiles/rtos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/tasks.c.obj"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/tasks.c.obj -MF CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/tasks.c.obj.d -o CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/tasks.c.obj -c /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Kernel/tasks.c
 
-CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/tasks.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/tasks.c.i"
-	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kjuszcza/magisterka/freertos/components/FreeRTOS-Kernel/tasks.c > CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/tasks.c.i
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/tasks.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/tasks.c.i"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Kernel/tasks.c > CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/tasks.c.i
 
-CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/tasks.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/tasks.c.s"
-	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kjuszcza/magisterka/freertos/components/FreeRTOS-Kernel/tasks.c -o CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/tasks.c.s
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/tasks.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/tasks.c.s"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Kernel/tasks.c -o CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/tasks.c.s
 
-CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/timers.c.obj: CMakeFiles/rtos.dir/flags.make
-CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/timers.c.obj: ../components/FreeRTOS-Kernel/timers.c
-CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/timers.c.obj: CMakeFiles/rtos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/timers.c.obj"
-	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/timers.c.obj -MF CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/timers.c.obj.d -o CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/timers.c.obj -c /home/kjuszcza/magisterka/freertos/components/FreeRTOS-Kernel/timers.c
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/timers.c.obj: CMakeFiles/rtos.dir/flags.make
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/timers.c.obj: ../components/FreeRTOS/FreeRTOS-Kernel/timers.c
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/timers.c.obj: CMakeFiles/rtos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/timers.c.obj"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/timers.c.obj -MF CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/timers.c.obj.d -o CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/timers.c.obj -c /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Kernel/timers.c
 
-CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/timers.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/timers.c.i"
-	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kjuszcza/magisterka/freertos/components/FreeRTOS-Kernel/timers.c > CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/timers.c.i
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/timers.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/timers.c.i"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Kernel/timers.c > CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/timers.c.i
 
-CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/timers.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/timers.c.s"
-	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kjuszcza/magisterka/freertos/components/FreeRTOS-Kernel/timers.c -o CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/timers.c.s
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/timers.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/timers.c.s"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Kernel/timers.c -o CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/timers.c.s
+
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c.obj: CMakeFiles/rtos.dir/flags.make
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c.obj: ../components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c.obj: CMakeFiles/rtos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c.obj"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c.obj -MF CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c.obj.d -o CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c.obj -c /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c
+
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c.i"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c > CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c.i
+
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c.s"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c -o CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c.s
+
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c.obj: CMakeFiles/rtos.dir/flags.make
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c.obj: ../components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c.obj: CMakeFiles/rtos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c.obj"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c.obj -MF CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c.obj.d -o CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c.obj -c /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c
+
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c.i"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c > CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c.i
+
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c.s"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c -o CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c.s
+
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c.obj: CMakeFiles/rtos.dir/flags.make
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c.obj: ../components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c.obj: CMakeFiles/rtos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c.obj"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c.obj -MF CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c.obj.d -o CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c.obj -c /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c
+
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c.i"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c > CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c.i
+
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c.s"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c -o CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c.s
+
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_IP.c.obj: CMakeFiles/rtos.dir/flags.make
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_IP.c.obj: ../components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_IP.c
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_IP.c.obj: CMakeFiles/rtos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_IP.c.obj"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_IP.c.obj -MF CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_IP.c.obj.d -o CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_IP.c.obj -c /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_IP.c
+
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_IP.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_IP.c.i"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_IP.c > CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_IP.c.i
+
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_IP.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_IP.c.s"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_IP.c -o CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_IP.c.s
+
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c.obj: CMakeFiles/rtos.dir/flags.make
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c.obj: ../components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c.obj: CMakeFiles/rtos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c.obj"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c.obj -MF CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c.obj.d -o CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c.obj -c /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c
+
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c.i"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c > CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c.i
+
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c.s"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c -o CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c.s
+
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.c.obj: CMakeFiles/rtos.dir/flags.make
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.c.obj: ../components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.c
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.c.obj: CMakeFiles/rtos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.c.obj"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.c.obj -MF CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.c.obj.d -o CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.c.obj -c /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.c
+
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.c.i"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.c > CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.c.i
+
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.c.s"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.c -o CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.c.s
+
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c.obj: CMakeFiles/rtos.dir/flags.make
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c.obj: ../components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c.obj: CMakeFiles/rtos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c.obj"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c.obj -MF CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c.obj.d -o CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c.obj -c /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c
+
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c.i"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c > CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c.i
+
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c.s"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c -o CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c.s
+
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.c.obj: CMakeFiles/rtos.dir/flags.make
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.c.obj: ../components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.c
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.c.obj: CMakeFiles/rtos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.c.obj"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.c.obj -MF CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.c.obj.d -o CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.c.obj -c /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.c
+
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.c.i"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.c > CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.c.i
+
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.c.s"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.c -o CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.c.s
+
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.c.obj: CMakeFiles/rtos.dir/flags.make
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.c.obj: ../components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.c
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.c.obj: CMakeFiles/rtos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.c.obj"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.c.obj -MF CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.c.obj.d -o CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.c.obj -c /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.c
+
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.c.i"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.c > CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.c.i
+
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.c.s"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.c -o CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.c.s
+
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_1.c.obj: CMakeFiles/rtos.dir/flags.make
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_1.c.obj: ../components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_1.c
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_1.c.obj: CMakeFiles/rtos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_1.c.obj"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_1.c.obj -MF CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_1.c.obj.d -o CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_1.c.obj -c /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_1.c
+
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_1.c.i"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_1.c > CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_1.c.i
+
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_1.c.s"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_1.c -o CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_1.c.s
+
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.c.obj: CMakeFiles/rtos.dir/flags.make
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.c.obj: ../components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.c
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.c.obj: CMakeFiles/rtos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.c.obj"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.c.obj -MF CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.c.obj.d -o CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.c.obj -c /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.c
+
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.c.i"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.c > CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.c.i
+
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.c.s"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.c -o CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.c.s
+
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/NetworkInterface.c.obj: CMakeFiles/rtos.dir/flags.make
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/NetworkInterface.c.obj: ../components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/NetworkInterface.c
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/NetworkInterface.c.obj: CMakeFiles/rtos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/NetworkInterface.c.obj"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/NetworkInterface.c.obj -MF CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/NetworkInterface.c.obj.d -o CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/NetworkInterface.c.obj -c /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/NetworkInterface.c
+
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/NetworkInterface.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/NetworkInterface.c.i"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/NetworkInterface.c > CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/NetworkInterface.c.i
+
+CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/NetworkInterface.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/NetworkInterface.c.s"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/NetworkInterface.c -o CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/NetworkInterface.c.s
 
 # Object files for target rtos
 rtos_OBJECTS = \
-"CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/croutine.c.obj" \
-"CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/event_groups.c.obj" \
-"CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/list.c.obj" \
-"CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c.obj" \
-"CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj" \
-"CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/queue.c.obj" \
-"CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/stream_buffer.c.obj" \
-"CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/tasks.c.obj" \
-"CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/timers.c.obj"
+"CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/croutine.c.obj" \
+"CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/event_groups.c.obj" \
+"CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/list.c.obj" \
+"CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c.obj" \
+"CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj" \
+"CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/queue.c.obj" \
+"CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c.obj" \
+"CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/tasks.c.obj" \
+"CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/timers.c.obj" \
+"CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c.obj" \
+"CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c.obj" \
+"CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c.obj" \
+"CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_IP.c.obj" \
+"CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c.obj" \
+"CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.c.obj" \
+"CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c.obj" \
+"CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.c.obj" \
+"CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.c.obj" \
+"CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_1.c.obj" \
+"CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.c.obj" \
+"CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/NetworkInterface.c.obj"
 
 # External object files for target rtos
 rtos_EXTERNAL_OBJECTS =
 
-librtos.a: CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/croutine.c.obj
-librtos.a: CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/event_groups.c.obj
-librtos.a: CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/list.c.obj
-librtos.a: CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c.obj
-librtos.a: CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj
-librtos.a: CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/queue.c.obj
-librtos.a: CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/stream_buffer.c.obj
-librtos.a: CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/tasks.c.obj
-librtos.a: CMakeFiles/rtos.dir/components/FreeRTOS-Kernel/timers.c.obj
+librtos.a: CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/croutine.c.obj
+librtos.a: CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/event_groups.c.obj
+librtos.a: CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/list.c.obj
+librtos.a: CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/portable/GCC/ARM_CM3/port.c.obj
+librtos.a: CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj
+librtos.a: CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/queue.c.obj
+librtos.a: CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c.obj
+librtos.a: CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/tasks.c.obj
+librtos.a: CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Kernel/timers.c.obj
+librtos.a: CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c.obj
+librtos.a: CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c.obj
+librtos.a: CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c.obj
+librtos.a: CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_IP.c.obj
+librtos.a: CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c.obj
+librtos.a: CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.c.obj
+librtos.a: CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c.obj
+librtos.a: CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.c.obj
+librtos.a: CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.c.obj
+librtos.a: CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_1.c.obj
+librtos.a: CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.c.obj
+librtos.a: CMakeFiles/rtos.dir/components/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/NetworkInterface.c.obj
 librtos.a: CMakeFiles/rtos.dir/build.make
 librtos.a: CMakeFiles/rtos.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C static library librtos.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking C static library librtos.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/rtos.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rtos.dir/link.txt --verbose=$(VERBOSE)
 
