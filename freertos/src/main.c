@@ -5,10 +5,7 @@
 #include "board_config.h"
 
 /* Rhealstone benchmark */
-#include "task_switch.h"
-#include "task_preemption.h"
-#include "interrupt_latency.h"
-#include "semaphore_shuffle.h"
+#include "test_benchmark.h"
 
 #include "TCPExample.h"
 
@@ -34,10 +31,7 @@ int main ( void )
     print("FreeRTOS\n");
 
     /* Rhealstone benchmark */
-    // startTaskSwitchTest();
-    // startTaskPreemptionTest();
-    // startInterruptLatencyTest();
-    startSemaphoreShuffleTest();
+    startRhealstoneBenchmark();
 
     /* TCP example */
     // initAndStartTCPExample();

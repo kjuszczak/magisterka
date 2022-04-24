@@ -163,6 +163,19 @@ CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/board_config/src/hal_msp.c.obj:
   ../components/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_tim_ex.h \
   ../components/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_uart.h
 
+CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/deadlock_breaking_time.c.obj: /home/kjuszcza/magisterka/rhealstone/src/deadlock_breaking_time.c \
+  /home/kjuszcza/magisterka/rhealstone/include/deadlock_breaking_time.h \
+  /home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/lib/gcc/arm-zephyr-eabi/10.3.0/include/stdint.h \
+  /home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/stdint.h \
+  /home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/machine/_default_types.h \
+  /home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys/features.h \
+  /home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/_newlib_version.h \
+  /home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys/_intsup.h \
+  /home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys/_stdint.h \
+  /home/kjuszcza/magisterka/board_config/include/board_config.h \
+  /home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/lib/gcc/arm-zephyr-eabi/10.3.0/include/stdarg.h \
+  ../include/rtos_portable.h
+
 CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/interrupt_latency.c.obj: /home/kjuszcza/magisterka/rhealstone/src/interrupt_latency.c \
   /home/kjuszcza/magisterka/rhealstone/include/interrupt_latency.h \
   /home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/lib/gcc/arm-zephyr-eabi/10.3.0/include/stdint.h \
@@ -372,10 +385,12 @@ CMakeFiles/main.elf.dir/src/main.c.obj: ../src/main.c \
   ../components/FreeRTOS/FreeRTOS-Kernel/include/task.h \
   /home/kjuszcza/magisterka/board_config/include/board_config.h \
   /home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/lib/gcc/arm-zephyr-eabi/10.3.0/include/stdarg.h \
-  /home/kjuszcza/magisterka/rhealstone/include/task_switch.h \
+  /home/kjuszcza/magisterka/rhealstone/include/test_benchmark.h \
   /home/kjuszcza/magisterka/rhealstone/include/task_preemption.h \
+  /home/kjuszcza/magisterka/rhealstone/include/task_switch.h \
   /home/kjuszcza/magisterka/rhealstone/include/interrupt_latency.h \
   /home/kjuszcza/magisterka/rhealstone/include/semaphore_shuffle.h \
+  /home/kjuszcza/magisterka/rhealstone/include/deadlock_breaking_time.h \
   ../include/TCPExample.h
 
 CMakeFiles/main.elf.dir/src/rtos_portable.c.obj: ../src/rtos_portable.c \
@@ -524,10 +539,6 @@ CMakeFiles/main.elf.dir/src/stm32f2xx_it.c.obj: ../src/stm32f2xx_it.c \
 
 /home/kjuszcza/magisterka/rhealstone/src/semaphore_shuffle.c:
 
-/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/machine/types.h:
-
-../include/rtos_portable.h:
-
 /home/kjuszcza/magisterka/rhealstone/include/interrupt_latency.h:
 
 /home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys/sched.h:
@@ -535,6 +546,12 @@ CMakeFiles/main.elf.dir/src/stm32f2xx_it.c.obj: ../src/stm32f2xx_it.c \
 /home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys/_timeval.h:
 
 /home/kjuszcza/magisterka/rhealstone/src/interrupt_latency.c:
+
+/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/machine/types.h:
+
+../include/rtos_portable.h:
+
+/home/kjuszcza/magisterka/rhealstone/src/deadlock_breaking_time.c:
 
 /home/kjuszcza/magisterka/board_config/src/hal_msp.c:
 
@@ -567,6 +584,8 @@ CMakeFiles/main.elf.dir/src/stm32f2xx_it.c.obj: ../src/stm32f2xx_it.c \
 /home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys/_stdint.h:
 
 ../components/CMSIS/Device/ST/STM32F2xx/Source/Templates/system_stm32f2xx.c:
+
+/home/kjuszcza/magisterka/rhealstone/include/test_benchmark.h:
 
 ../components/FreeRTOS/FreeRTOS-Kernel/include/portable.h:
 
@@ -615,6 +634,8 @@ CMakeFiles/main.elf.dir/src/stm32f2xx_it.c.obj: ../src/stm32f2xx_it.c \
 /home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/_newlib_version.h:
 
 ../include/FreeRTOSHandlers.h:
+
+/home/kjuszcza/magisterka/rhealstone/include/deadlock_breaking_time.h:
 
 ../components/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_dma.h:
 

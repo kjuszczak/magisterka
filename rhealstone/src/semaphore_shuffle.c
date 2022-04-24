@@ -6,7 +6,7 @@
 /* RTOS API */
 #include "rtos_portable.h"
 
-#define TEST_ITERATION    1
+#define TEST_ITERATION    10000
 
 /* TASK 1 PARAMS */
 #define TASK_1_PRIORITY   0
@@ -29,7 +29,7 @@ void startSemaphoreShuffleTest()
         print("Error! Cannot create semaphore!\n");
         return;
     }
-    createTask(taskSemaphoreShuffleTest_1, "SemaphoreShuffleTestTask_1", TASK_1_PRIORITY);
+    createTask(taskSemaphoreShuffleTest_1, "SemaphoreShuffleTestTask_1", TASK_1_PRIORITY, TASK_1_INDEX);
 }
 
 void printSemaphoreShuffleTestResults()
@@ -47,7 +47,7 @@ struct SemaphoreShuffleTestResults* getSemaphoreShuffleTestResults()
 
 static void taskSemaphoreShuffleTest_1(void *pvParameters)
 {
-    createTask(taskSemaphoreShuffleTest_2, "SemaphoreShuffleTestTask_2", TASK_2_PRIORITY);
+    createTask(taskSemaphoreShuffleTest_2, "SemaphoreShuffleTestTask_2", TASK_2_PRIORITY, TASK_2_INDEX);
 
     for (int i = 0; i < TEST_ITERATION; i++)
     {
@@ -59,7 +59,7 @@ static void taskSemaphoreShuffleTest_1(void *pvParameters)
         }
     }
 
-    // switchTask();
+    switchTask();
 
     for (;;) {}
 }

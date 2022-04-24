@@ -3,18 +3,22 @@
 
 #include "stdint.h"
 
+#define MAX_NUMBER_OF_TASKS 3
+#define TASK_1_INDEX        0
+#define TASK_2_INDEX        1
+#define TASK_3_INDEX        2
+
 typedef uint32_t Ticks;
 typedef void (* TaskFunction) (void*);
 
-void createTask(TaskFunction task, const char *pcName, uint32_t priority);
+void createTask(TaskFunction task, const char *pcName, uint32_t priority, uint8_t taskIndex);
 void switchTask();
-void suspendTask();
-void resumeTaskFromIsr();
+void suspendTask(uint8_t taskIndex);
+void suspendTaskForIsr(uint8_t taskIndex);
+void resumeTask(uint8_t taskIndex);
+void resumeTaskFromIsr(uint8_t taskIndex);
 uint8_t createSemaphore();
 uint8_t takeSemaphore();
 uint8_t giveSemaphore();
-
-void delayTask(uint32_t delay);
-void deleteTask();
 
 #endif // RTOS_PORTABLE_H

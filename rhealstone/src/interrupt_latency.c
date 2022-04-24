@@ -29,8 +29,8 @@ static void taskInterruptLatencyTest_2(void *pvParameters);
 void startInterruptLatencyTest()
 {
     initTest();
-    createTask(taskInterruptLatencyTest_1, "InterruptLatencyTestTask_1", TASK_1_PRIORITY);
-    createTask(taskInterruptLatencyTest_2, "InterruptLatencyTestTask_2", TASK_2_PRIORITY);
+    createTask(taskInterruptLatencyTest_1, "InterruptLatencyTestTask_1", TASK_1_PRIORITY, TASK_1_INDEX);
+    createTask(taskInterruptLatencyTest_2, "InterruptLatencyTestTask_2", TASK_2_PRIORITY, TASK_2_INDEX);
 }
 
 void printInterruptLatencyTestResults()

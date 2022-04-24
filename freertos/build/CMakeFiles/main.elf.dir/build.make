@@ -111,10 +111,24 @@ CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/board_config/src/hal_msp.c.s: c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/board_config/src/hal_msp.c.s"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kjuszcza/magisterka/board_config/src/hal_msp.c -o CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/board_config/src/hal_msp.c.s
 
+CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/deadlock_breaking_time.c.obj: CMakeFiles/main.elf.dir/flags.make
+CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/deadlock_breaking_time.c.obj: /home/kjuszcza/magisterka/rhealstone/src/deadlock_breaking_time.c
+CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/deadlock_breaking_time.c.obj: CMakeFiles/main.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/deadlock_breaking_time.c.obj"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/deadlock_breaking_time.c.obj -MF CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/deadlock_breaking_time.c.obj.d -o CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/deadlock_breaking_time.c.obj -c /home/kjuszcza/magisterka/rhealstone/src/deadlock_breaking_time.c
+
+CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/deadlock_breaking_time.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/deadlock_breaking_time.c.i"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kjuszcza/magisterka/rhealstone/src/deadlock_breaking_time.c > CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/deadlock_breaking_time.c.i
+
+CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/deadlock_breaking_time.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/deadlock_breaking_time.c.s"
+	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kjuszcza/magisterka/rhealstone/src/deadlock_breaking_time.c -o CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/deadlock_breaking_time.c.s
+
 CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/interrupt_latency.c.obj: CMakeFiles/main.elf.dir/flags.make
 CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/interrupt_latency.c.obj: /home/kjuszcza/magisterka/rhealstone/src/interrupt_latency.c
 CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/interrupt_latency.c.obj: CMakeFiles/main.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/interrupt_latency.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/interrupt_latency.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/interrupt_latency.c.obj -MF CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/interrupt_latency.c.obj.d -o CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/interrupt_latency.c.obj -c /home/kjuszcza/magisterka/rhealstone/src/interrupt_latency.c
 
 CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/interrupt_latency.c.i: cmake_force
@@ -128,7 +142,7 @@ CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/interrupt_latenc
 CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/semaphore_shuffle.c.obj: CMakeFiles/main.elf.dir/flags.make
 CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/semaphore_shuffle.c.obj: /home/kjuszcza/magisterka/rhealstone/src/semaphore_shuffle.c
 CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/semaphore_shuffle.c.obj: CMakeFiles/main.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/semaphore_shuffle.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/semaphore_shuffle.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/semaphore_shuffle.c.obj -MF CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/semaphore_shuffle.c.obj.d -o CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/semaphore_shuffle.c.obj -c /home/kjuszcza/magisterka/rhealstone/src/semaphore_shuffle.c
 
 CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/semaphore_shuffle.c.i: cmake_force
@@ -142,7 +156,7 @@ CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/semaphore_shuffl
 CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/task_preemption.c.obj: CMakeFiles/main.elf.dir/flags.make
 CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/task_preemption.c.obj: /home/kjuszcza/magisterka/rhealstone/src/task_preemption.c
 CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/task_preemption.c.obj: CMakeFiles/main.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/task_preemption.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/task_preemption.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/task_preemption.c.obj -MF CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/task_preemption.c.obj.d -o CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/task_preemption.c.obj -c /home/kjuszcza/magisterka/rhealstone/src/task_preemption.c
 
 CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/task_preemption.c.i: cmake_force
@@ -156,7 +170,7 @@ CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/task_preemption.
 CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/task_switch.c.obj: CMakeFiles/main.elf.dir/flags.make
 CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/task_switch.c.obj: /home/kjuszcza/magisterka/rhealstone/src/task_switch.c
 CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/task_switch.c.obj: CMakeFiles/main.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/task_switch.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/task_switch.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/task_switch.c.obj -MF CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/task_switch.c.obj.d -o CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/task_switch.c.obj -c /home/kjuszcza/magisterka/rhealstone/src/task_switch.c
 
 CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/task_switch.c.i: cmake_force
@@ -170,7 +184,7 @@ CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/task_switch.c.s:
 CMakeFiles/main.elf.dir/src/TCPEchoServer.c.obj: CMakeFiles/main.elf.dir/flags.make
 CMakeFiles/main.elf.dir/src/TCPEchoServer.c.obj: ../src/TCPEchoServer.c
 CMakeFiles/main.elf.dir/src/TCPEchoServer.c.obj: CMakeFiles/main.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/main.elf.dir/src/TCPEchoServer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/main.elf.dir/src/TCPEchoServer.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.elf.dir/src/TCPEchoServer.c.obj -MF CMakeFiles/main.elf.dir/src/TCPEchoServer.c.obj.d -o CMakeFiles/main.elf.dir/src/TCPEchoServer.c.obj -c /home/kjuszcza/magisterka/freertos/src/TCPEchoServer.c
 
 CMakeFiles/main.elf.dir/src/TCPEchoServer.c.i: cmake_force
@@ -184,7 +198,7 @@ CMakeFiles/main.elf.dir/src/TCPEchoServer.c.s: cmake_force
 CMakeFiles/main.elf.dir/src/TCPExample.c.obj: CMakeFiles/main.elf.dir/flags.make
 CMakeFiles/main.elf.dir/src/TCPExample.c.obj: ../src/TCPExample.c
 CMakeFiles/main.elf.dir/src/TCPExample.c.obj: CMakeFiles/main.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/main.elf.dir/src/TCPExample.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/main.elf.dir/src/TCPExample.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.elf.dir/src/TCPExample.c.obj -MF CMakeFiles/main.elf.dir/src/TCPExample.c.obj.d -o CMakeFiles/main.elf.dir/src/TCPExample.c.obj -c /home/kjuszcza/magisterka/freertos/src/TCPExample.c
 
 CMakeFiles/main.elf.dir/src/TCPExample.c.i: cmake_force
@@ -198,7 +212,7 @@ CMakeFiles/main.elf.dir/src/TCPExample.c.s: cmake_force
 CMakeFiles/main.elf.dir/src/libc_hooks.c.obj: CMakeFiles/main.elf.dir/flags.make
 CMakeFiles/main.elf.dir/src/libc_hooks.c.obj: ../src/libc_hooks.c
 CMakeFiles/main.elf.dir/src/libc_hooks.c.obj: CMakeFiles/main.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/main.elf.dir/src/libc_hooks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/main.elf.dir/src/libc_hooks.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.elf.dir/src/libc_hooks.c.obj -MF CMakeFiles/main.elf.dir/src/libc_hooks.c.obj.d -o CMakeFiles/main.elf.dir/src/libc_hooks.c.obj -c /home/kjuszcza/magisterka/freertos/src/libc_hooks.c
 
 CMakeFiles/main.elf.dir/src/libc_hooks.c.i: cmake_force
@@ -212,7 +226,7 @@ CMakeFiles/main.elf.dir/src/libc_hooks.c.s: cmake_force
 CMakeFiles/main.elf.dir/src/main.c.obj: CMakeFiles/main.elf.dir/flags.make
 CMakeFiles/main.elf.dir/src/main.c.obj: ../src/main.c
 CMakeFiles/main.elf.dir/src/main.c.obj: CMakeFiles/main.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/main.elf.dir/src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/main.elf.dir/src/main.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.elf.dir/src/main.c.obj -MF CMakeFiles/main.elf.dir/src/main.c.obj.d -o CMakeFiles/main.elf.dir/src/main.c.obj -c /home/kjuszcza/magisterka/freertos/src/main.c
 
 CMakeFiles/main.elf.dir/src/main.c.i: cmake_force
@@ -226,7 +240,7 @@ CMakeFiles/main.elf.dir/src/main.c.s: cmake_force
 CMakeFiles/main.elf.dir/src/rtos_portable.c.obj: CMakeFiles/main.elf.dir/flags.make
 CMakeFiles/main.elf.dir/src/rtos_portable.c.obj: ../src/rtos_portable.c
 CMakeFiles/main.elf.dir/src/rtos_portable.c.obj: CMakeFiles/main.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/main.elf.dir/src/rtos_portable.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/main.elf.dir/src/rtos_portable.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.elf.dir/src/rtos_portable.c.obj -MF CMakeFiles/main.elf.dir/src/rtos_portable.c.obj.d -o CMakeFiles/main.elf.dir/src/rtos_portable.c.obj -c /home/kjuszcza/magisterka/freertos/src/rtos_portable.c
 
 CMakeFiles/main.elf.dir/src/rtos_portable.c.i: cmake_force
@@ -240,7 +254,7 @@ CMakeFiles/main.elf.dir/src/rtos_portable.c.s: cmake_force
 CMakeFiles/main.elf.dir/src/stm32f2xx_it.c.obj: CMakeFiles/main.elf.dir/flags.make
 CMakeFiles/main.elf.dir/src/stm32f2xx_it.c.obj: ../src/stm32f2xx_it.c
 CMakeFiles/main.elf.dir/src/stm32f2xx_it.c.obj: CMakeFiles/main.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/main.elf.dir/src/stm32f2xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/main.elf.dir/src/stm32f2xx_it.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.elf.dir/src/stm32f2xx_it.c.obj -MF CMakeFiles/main.elf.dir/src/stm32f2xx_it.c.obj.d -o CMakeFiles/main.elf.dir/src/stm32f2xx_it.c.obj -c /home/kjuszcza/magisterka/freertos/src/stm32f2xx_it.c
 
 CMakeFiles/main.elf.dir/src/stm32f2xx_it.c.i: cmake_force
@@ -253,7 +267,7 @@ CMakeFiles/main.elf.dir/src/stm32f2xx_it.c.s: cmake_force
 
 CMakeFiles/main.elf.dir/components/CMSIS/Device/ST/STM32F2xx/Source/Templates/gcc/startup_stm32f207xx.s.obj: CMakeFiles/main.elf.dir/flags.make
 CMakeFiles/main.elf.dir/components/CMSIS/Device/ST/STM32F2xx/Source/Templates/gcc/startup_stm32f207xx.s.obj: ../components/CMSIS/Device/ST/STM32F2xx/Source/Templates/gcc/startup_stm32f207xx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building ASM object CMakeFiles/main.elf.dir/components/CMSIS/Device/ST/STM32F2xx/Source/Templates/gcc/startup_stm32f207xx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building ASM object CMakeFiles/main.elf.dir/components/CMSIS/Device/ST/STM32F2xx/Source/Templates/gcc/startup_stm32f207xx.s.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/main.elf.dir/components/CMSIS/Device/ST/STM32F2xx/Source/Templates/gcc/startup_stm32f207xx.s.obj -c /home/kjuszcza/magisterka/freertos/components/CMSIS/Device/ST/STM32F2xx/Source/Templates/gcc/startup_stm32f207xx.s
 
 CMakeFiles/main.elf.dir/components/CMSIS/Device/ST/STM32F2xx/Source/Templates/gcc/startup_stm32f207xx.s.i: cmake_force
@@ -267,7 +281,7 @@ CMakeFiles/main.elf.dir/components/CMSIS/Device/ST/STM32F2xx/Source/Templates/gc
 CMakeFiles/main.elf.dir/components/CMSIS/Device/ST/STM32F2xx/Source/Templates/system_stm32f2xx.c.obj: CMakeFiles/main.elf.dir/flags.make
 CMakeFiles/main.elf.dir/components/CMSIS/Device/ST/STM32F2xx/Source/Templates/system_stm32f2xx.c.obj: ../components/CMSIS/Device/ST/STM32F2xx/Source/Templates/system_stm32f2xx.c
 CMakeFiles/main.elf.dir/components/CMSIS/Device/ST/STM32F2xx/Source/Templates/system_stm32f2xx.c.obj: CMakeFiles/main.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/main.elf.dir/components/CMSIS/Device/ST/STM32F2xx/Source/Templates/system_stm32f2xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/main.elf.dir/components/CMSIS/Device/ST/STM32F2xx/Source/Templates/system_stm32f2xx.c.obj"
 	/home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.elf.dir/components/CMSIS/Device/ST/STM32F2xx/Source/Templates/system_stm32f2xx.c.obj -MF CMakeFiles/main.elf.dir/components/CMSIS/Device/ST/STM32F2xx/Source/Templates/system_stm32f2xx.c.obj.d -o CMakeFiles/main.elf.dir/components/CMSIS/Device/ST/STM32F2xx/Source/Templates/system_stm32f2xx.c.obj -c /home/kjuszcza/magisterka/freertos/components/CMSIS/Device/ST/STM32F2xx/Source/Templates/system_stm32f2xx.c
 
 CMakeFiles/main.elf.dir/components/CMSIS/Device/ST/STM32F2xx/Source/Templates/system_stm32f2xx.c.i: cmake_force
@@ -283,6 +297,7 @@ main_elf_OBJECTS = \
 "CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/board_config/src/board_config.c.obj" \
 "CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/board_config/src/hal_it.c.obj" \
 "CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/board_config/src/hal_msp.c.obj" \
+"CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/deadlock_breaking_time.c.obj" \
 "CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/interrupt_latency.c.obj" \
 "CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/semaphore_shuffle.c.obj" \
 "CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/task_preemption.c.obj" \
@@ -302,6 +317,7 @@ main_elf_EXTERNAL_OBJECTS =
 main.elf: CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/board_config/src/board_config.c.obj
 main.elf: CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/board_config/src/hal_it.c.obj
 main.elf: CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/board_config/src/hal_msp.c.obj
+main.elf: CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/deadlock_breaking_time.c.obj
 main.elf: CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/interrupt_latency.c.obj
 main.elf: CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/semaphore_shuffle.c.obj
 main.elf: CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/task_preemption.c.obj
@@ -318,7 +334,7 @@ main.elf: CMakeFiles/main.elf.dir/build.make
 main.elf: librtos.a
 main.elf: libhal.a
 main.elf: CMakeFiles/main.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking C executable main.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kjuszcza/magisterka/freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking C executable main.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.elf.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

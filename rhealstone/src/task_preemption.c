@@ -6,7 +6,7 @@
 /* RTOS API */
 #include "rtos_portable.h"
 
-#define TEST_ITERATION    100
+#define TEST_ITERATION    1000
 
 /* TASK 1 PARAMS */
 #define TASK_1_PRIORITY   1
@@ -28,7 +28,7 @@ static void taskPreemptionTest_2(void *pvParameters);
 
 void startTaskPreemptionTest()
 {
-    createTask(taskPreemptionTest_1, "TaskPreemptionTest_1", TASK_1_PRIORITY);
+    createTask(taskPreemptionTest_1, "TaskPreemptionTest_1", TASK_1_PRIORITY, TASK_1_INDEX);
 }
 
 void printTestPreemptionResults()
@@ -60,26 +60,24 @@ static void isrCallback()
     stopIsr();
 
     startTimer();
-    resumeTaskFromIsr();
+    resumeTaskFromIsr(TASK_1_INDEX);
 }
 
 static void taskPreemptionTest_1(void *pvParameters)
 {
     initTest();
 
-    createTask(taskPreemptionTest_2, "TaskPreemptionTest_2", TASK_2_PRIORITY);
+    createTask(taskPreemptionTest_2, "TaskPreemptionTest_2", TASK_2_PRIORITY, TASK_2_INDEX);
 
     for (int i = 0; i < TEST_ITERATION; i++)
     {
         startIsr();
         checkFlag = 0;
-        for (;;)
-        {
-            suspendTask();
-            testResults.testTime += getTimerValue();
-            stopTimer();
-            break;
-        }
+
+        suspendTask(TASK_1_INDEX);
+        testResults.testTime += getTimerValue();
+        stopTimer();
+
         if (!checkFlag)
         {
             print("Error\n");
@@ -95,7 +93,7 @@ static void taskPreemptionTest_1(void *pvParameters)
 static void taskPreemptionTest_2(void *pvParameters)
 {
     for (;;)
-    {
+    {   
         checkFlag = 1;
     }
 }

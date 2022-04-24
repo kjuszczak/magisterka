@@ -23,17 +23,14 @@ static void taskSwitchTest_2(void *pvParameters);
 
 void startTaskSwitchTest()
 {
-    createTask(taskSwitchTest_1, "TaskSwitchTest_1", TASK_PRIORITY);
+    createTask(taskSwitchTest_1, "TaskSwitchTest_1", TASK_PRIORITY, TASK_1_INDEX);
 }
 
 void printTestSwitchResults()
 {
     static uint32_t result = 0;
     result = testResults.testTime - testResults.loopCmdTime;
-    print("Task switch test: loopCmdTime:%u, testTime:%u, result:%u\n",
-        testResults.loopCmdTime,
-        testResults.testTime,
-        result);
+    print("Task switch test: testTime:%u\n", result);
 }
 
 struct TaskSwitchResults* getTestSwitchResults()
@@ -62,7 +59,7 @@ static void taskSwitchTest_1(void *pvParameters)
 {
     initTest();
 
-    createTask(taskSwitchTest_2, "TaskSwitchTest_2", TASK_PRIORITY);
+    createTask(taskSwitchTest_2, "TaskSwitchTest_2", TASK_PRIORITY, TASK_2_INDEX);
 
     startTimer();
     for (uint32_t i = 0; i < TEST_ITERATION; i++)

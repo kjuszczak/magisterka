@@ -8,6 +8,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/board_config/src/hal_it.c.obj.d"
   "CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/board_config/src/hal_msp.c.obj"
   "CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/board_config/src/hal_msp.c.obj.d"
+  "CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/deadlock_breaking_time.c.obj"
+  "CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/deadlock_breaking_time.c.obj.d"
   "CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/interrupt_latency.c.obj"
   "CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/interrupt_latency.c.obj.d"
   "CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/semaphore_shuffle.c.obj"

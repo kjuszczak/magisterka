@@ -2349,6 +2349,30 @@ home/kjuszcza/magisterka/board_config/src/hal_msp.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.elf.dir/build.make CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/board_config/src/hal_msp.c.s
 .PHONY : home/kjuszcza/magisterka/board_config/src/hal_msp.c.s
 
+home/kjuszcza/magisterka/rhealstone/src/deadlock_breaking_time.obj: home/kjuszcza/magisterka/rhealstone/src/deadlock_breaking_time.c.obj
+.PHONY : home/kjuszcza/magisterka/rhealstone/src/deadlock_breaking_time.obj
+
+# target to build an object file
+home/kjuszcza/magisterka/rhealstone/src/deadlock_breaking_time.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.elf.dir/build.make CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/deadlock_breaking_time.c.obj
+.PHONY : home/kjuszcza/magisterka/rhealstone/src/deadlock_breaking_time.c.obj
+
+home/kjuszcza/magisterka/rhealstone/src/deadlock_breaking_time.i: home/kjuszcza/magisterka/rhealstone/src/deadlock_breaking_time.c.i
+.PHONY : home/kjuszcza/magisterka/rhealstone/src/deadlock_breaking_time.i
+
+# target to preprocess a source file
+home/kjuszcza/magisterka/rhealstone/src/deadlock_breaking_time.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.elf.dir/build.make CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/deadlock_breaking_time.c.i
+.PHONY : home/kjuszcza/magisterka/rhealstone/src/deadlock_breaking_time.c.i
+
+home/kjuszcza/magisterka/rhealstone/src/deadlock_breaking_time.s: home/kjuszcza/magisterka/rhealstone/src/deadlock_breaking_time.c.s
+.PHONY : home/kjuszcza/magisterka/rhealstone/src/deadlock_breaking_time.s
+
+# target to generate assembly for a file
+home/kjuszcza/magisterka/rhealstone/src/deadlock_breaking_time.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.elf.dir/build.make CMakeFiles/main.elf.dir/home/kjuszcza/magisterka/rhealstone/src/deadlock_breaking_time.c.s
+.PHONY : home/kjuszcza/magisterka/rhealstone/src/deadlock_breaking_time.c.s
+
 home/kjuszcza/magisterka/rhealstone/src/interrupt_latency.obj: home/kjuszcza/magisterka/rhealstone/src/interrupt_latency.c.obj
 .PHONY : home/kjuszcza/magisterka/rhealstone/src/interrupt_latency.obj
 
@@ -2873,6 +2897,9 @@ help:
 	@echo "... home/kjuszcza/magisterka/board_config/src/hal_msp.obj"
 	@echo "... home/kjuszcza/magisterka/board_config/src/hal_msp.i"
 	@echo "... home/kjuszcza/magisterka/board_config/src/hal_msp.s"
+	@echo "... home/kjuszcza/magisterka/rhealstone/src/deadlock_breaking_time.obj"
+	@echo "... home/kjuszcza/magisterka/rhealstone/src/deadlock_breaking_time.i"
+	@echo "... home/kjuszcza/magisterka/rhealstone/src/deadlock_breaking_time.s"
 	@echo "... home/kjuszcza/magisterka/rhealstone/src/interrupt_latency.obj"
 	@echo "... home/kjuszcza/magisterka/rhealstone/src/interrupt_latency.i"
 	@echo "... home/kjuszcza/magisterka/rhealstone/src/interrupt_latency.s"

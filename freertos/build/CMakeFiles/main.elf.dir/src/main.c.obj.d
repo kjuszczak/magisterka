@@ -22,8 +22,10 @@ CMakeFiles/main.elf.dir/src/main.c.obj: \
  /home/kjuszcza/magisterka/freertos/components/FreeRTOS/FreeRTOS-Kernel/include/task.h \
  /home/kjuszcza/magisterka/freertos/../board_config/include/board_config.h \
  /home/kjuszcza/zephyr-sdk-0.13.2/arm-zephyr-eabi/lib/gcc/arm-zephyr-eabi/10.3.0/include/stdarg.h \
- /home/kjuszcza/magisterka/freertos/../rhealstone/include/task_switch.h \
+ /home/kjuszcza/magisterka/freertos/../rhealstone/include/test_benchmark.h \
  /home/kjuszcza/magisterka/freertos/../rhealstone/include/task_preemption.h \
+ /home/kjuszcza/magisterka/freertos/../rhealstone/include/task_switch.h \
  /home/kjuszcza/magisterka/freertos/../rhealstone/include/interrupt_latency.h \
  /home/kjuszcza/magisterka/freertos/../rhealstone/include/semaphore_shuffle.h \
+ /home/kjuszcza/magisterka/freertos/../rhealstone/include/deadlock_breaking_time.h \
  /home/kjuszcza/magisterka/freertos/include/TCPExample.h

@@ -5,45 +5,18 @@
 #include "queue.h"
 #include "semphr.h"
 
-/* TASK 1 */
-#define TASK_1_INDEX 1
-
-TaskHandle_t xHandleTask_1;
-
-/* TASK 2 */
-#define TASK_2_INDEX 2
-
-TaskHandle_t xHandleTask_2;
+TaskHandle_t xHandleTask[MAX_NUMBER_OF_TASKS];
 
 SemaphoreHandle_t xSemaphore = NULL;
 
-static uint8_t taskIndex = 1;
-
-void createTask(TaskFunction task, const char *pcName, uint32_t priority)
+void createTask(TaskFunction task, const char *pcName, uint32_t priority, uint8_t taskIndex)
 {
-    switch (taskIndex)
-    {
-        case TASK_1_INDEX:
-            xTaskCreate(task,						
-                pcName, 						
-                configMINIMAL_STACK_SIZE, 			
-                NULL, 								
-                priority, 								
-                &xHandleTask_1);
-            break;
-        case TASK_2_INDEX:
-            xTaskCreate(task,						
-                pcName, 						
-                configMINIMAL_STACK_SIZE, 			
-                NULL, 								
-                priority, 								
-                &xHandleTask_2);
-            break;
-        default:
-            return;
-    }
-
-    taskIndex++;							
+    xTaskCreate(task,						
+        pcName, 						
+        configMINIMAL_STACK_SIZE, 			
+        NULL, 								
+        priority, 								
+        &xHandleTask[taskIndex]);	
 }
 
 void switchTask()
@@ -51,27 +24,27 @@ void switchTask()
     taskYIELD();
 }
 
-void suspendTask()
+void suspendTask(uint8_t taskIndex)
 {
-    vTaskSuspend(NULL);
+    vTaskSuspend(xHandleTask[taskIndex]);
 }
 
-void delayTask(uint32_t delay)
+void suspendTaskForIsr(uint8_t taskIndex)
 {
-    vTaskDelay(delay);
+    suspendTask(taskIndex);
 }
 
-void deleteTeask()
+void resumeTask(uint8_t taskIndex)
 {
-    vTaskDelete(NULL);
+    vTaskResume(xHandleTask[taskIndex]);
 }
 
-void resumeTaskFromIsr()
+void resumeTaskFromIsr(uint8_t taskIndex)
 {
     BaseType_t xYieldRequired;
 
-    xYieldRequired = xTaskResumeFromISR(xHandleTask_1);
-    portYIELD_FROM_ISR( xYieldRequired );
+    xYieldRequired = xTaskResumeFromISR(xHandleTask[taskIndex]);
+    portYIELD_FROM_ISR(xYieldRequired);
 }
 
 uint8_t createSemaphore()
