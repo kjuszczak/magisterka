@@ -9,6 +9,8 @@
 
 #include "TCPExample.h"
 
+uint8_t schedulerStartFlag = 0;
+
 /**
 * @brief    Task for blinking an LED every second
 * 
@@ -32,6 +34,8 @@ int main ( void )
 
     /* Rhealstone benchmark */
     startRhealstoneBenchmark();
+
+    schedulerStartFlag = 1;
 
     /* TCP example */
     // initAndStartTCPExample();

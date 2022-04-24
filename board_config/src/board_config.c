@@ -22,9 +22,8 @@ UART_HandleTypeDef huart3;
 DMA_HandleTypeDef hdma_usart3_rx;
 DMA_HandleTypeDef hdma_usart3_tx;
 
-GPIO_InitTypeDef  GPIO_InitStruct;
-
 IsrRtosCallback tim1Callback;
+GpioRtosCallback gpioCallback;
 
 // ETH_HandleTypeDef heth;
 static char logBuffer[500] = "\r";
@@ -36,9 +35,9 @@ void board_config()
 {
     HAL_Init();
     clock_config();
+    uart_config();
     gpio_config();
     dma_config();
-    uart_config();
     tim_config();
     // eth_config();
 }
@@ -103,6 +102,16 @@ void setIsrCallback(IsrRtosCallback rtosCallback)
     tim1Callback = rtosCallback;
 }
 
+void setGpioCallback(GpioRtosCallback rtosCallback)
+{
+    gpioCallback = rtosCallback;
+}
+
+void generateGpioInterrupt()
+{
+    __HAL_GPIO_EXTI_GENERATE_SWIT(GPIO_PIN_13);
+}
+
 /* PRIVATE FUNCTIONS */
 /**
   * @brief  System Clock Configuration
@@ -153,13 +162,26 @@ void clock_config(void) {
 
 void gpio_config(void)
 {
+    __HAL_RCC_GPIOC_CLK_ENABLE();
     __HAL_RCC_GPIOB_CLK_ENABLE();
-    GPIO_InitStruct.Pin   = LED1_PIN;
-    GPIO_InitStruct.Mode  = GPIO_MODE_OUTPUT_PP;
-    GPIO_InitStruct.Pull  = GPIO_PULLUP;
-    GPIO_InitStruct.Speed = GPIO_SPEED_HIGH;
-    HAL_GPIO_Init(LED1_PORT, &GPIO_InitStruct);
+
+    GPIO_InitTypeDef  GPIOB_InitStruct = {0};
+    GPIO_InitTypeDef  GPIOC_InitStruct = {0};
+
+    GPIOB_InitStruct.Pin   = LED1_PIN;
+    GPIOB_InitStruct.Mode  = GPIO_MODE_OUTPUT_PP;
+    GPIOB_InitStruct.Pull  = GPIO_PULLUP;
+    GPIOB_InitStruct.Speed = GPIO_SPEED_HIGH;
+    HAL_GPIO_Init(LED1_PORT, &GPIOB_InitStruct);
     HAL_GPIO_WritePin(LED1_PORT, LED1_PIN, GPIO_PIN_RESET);
+
+    GPIOC_InitStruct.Pin = GPIO_PIN_13;
+    GPIOC_InitStruct.Mode = GPIO_MODE_IT_RISING;
+    GPIOC_InitStruct.Pull = GPIO_NOPULL;
+    HAL_GPIO_Init(GPIOC, &GPIOC_InitStruct);
+
+    HAL_NVIC_SetPriority(EXTI15_10_IRQn, 0, 0);
+    HAL_NVIC_EnableIRQ(EXTI15_10_IRQn);
 }
 
 void uart_config(void)
@@ -222,6 +244,7 @@ static void tim_5_config(void)
 
 static void tim_2_config(void)
 {
+  /*60MHz clock, t = (Prescaler * Period) / 60MHz = 1 msec*/
   TIM_ClockConfigTypeDef sClockSourceConfig = {0};
   TIM_MasterConfigTypeDef sMasterConfig = {0};
 
@@ -245,6 +268,12 @@ static void tim_2_config(void)
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 {
     tim1Callback();
+}
+
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
+{
+    (void) GPIO_Pin;
+    gpioCallback();
 }
 
 // void eth_config(void)

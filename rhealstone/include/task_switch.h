@@ -3,8 +3,6 @@
 
 #include "stdint.h"
 
-#define TEST_ITERATION 1000000
-
 struct TaskSwitchResults{
     uint32_t loopCmdTime;
     uint32_t testTime;

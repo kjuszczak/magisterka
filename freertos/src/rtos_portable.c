@@ -5,9 +5,12 @@
 #include "queue.h"
 #include "semphr.h"
 
+#define TASK_BASE_PRIORITY 3u
+
 TaskHandle_t xHandleTask[MAX_NUMBER_OF_TASKS];
 
 SemaphoreHandle_t xSemaphore = NULL;
+QueueHandle_t xStructQueue = NULL;
 
 void createTask(TaskFunction task, const char *pcName, uint32_t priority, uint8_t taskIndex)
 {
@@ -15,7 +18,7 @@ void createTask(TaskFunction task, const char *pcName, uint32_t priority, uint8_
         pcName, 						
         configMINIMAL_STACK_SIZE, 			
         NULL, 								
-        priority, 								
+        TASK_BASE_PRIORITY + priority, 								
         &xHandleTask[taskIndex]);	
 }
 
@@ -27,11 +30,6 @@ void switchTask()
 void suspendTask(uint8_t taskIndex)
 {
     vTaskSuspend(xHandleTask[taskIndex]);
-}
-
-void suspendTaskForIsr(uint8_t taskIndex)
-{
-    suspendTask(taskIndex);
 }
 
 void resumeTask(uint8_t taskIndex)
@@ -61,4 +59,20 @@ uint8_t takeSemaphore()
 uint8_t giveSemaphore()
 {
     return xSemaphoreGive(xSemaphore) == pdTRUE;
+}
+
+uint8_t createQueue(uint8_t queueSize)
+{
+    xStructQueue = xQueueCreate(queueSize, sizeof(uint8_t));
+    return xStructQueue != NULL;
+}
+
+uint8_t sendMsg(void* msg)
+{
+    return xQueueSend(xStructQueue, msg, portMAX_DELAY) == pdPASS;
+}
+
+uint8_t receiveMsg(void* msg)
+{
+    return xQueueReceive(xStructQueue, msg, portMAX_DELAY) == pdPASS;
 }

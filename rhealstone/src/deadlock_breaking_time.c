@@ -6,7 +6,7 @@
 /* RTOS API */
 #include "rtos_portable.h"
 
-#define TEST_ITERATION    100
+#define TEST_ITERATION    10000
 
 /* TASK 1 PARAMS */
 #define TASK_1_PRIORITY   2

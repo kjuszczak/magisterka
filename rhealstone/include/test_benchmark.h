@@ -7,15 +7,17 @@
 #include "interrupt_latency.h"
 #include "semaphore_shuffle.h"
 #include "deadlock_breaking_time.h"
+#include "intertask_msg_latency.h"
 
 void startRhealstoneBenchmark()
 {
     /* Rhealstone benchmark */
-    startTaskSwitchTest();
+    // startTaskSwitchTest();
     // startTaskPreemptionTest();
-    // startInterruptLatencyTest();
+    startInterruptLatencyTest();
     // startSemaphoreShuffleTest();
     // startDeadlockBreakingTimeTest();
+    // startIntertaskMsgLatencyTest();
 }
 
 #endif // TEST_BENCHMARK_H

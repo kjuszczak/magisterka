@@ -14,11 +14,13 @@ typedef void (* TaskFunction) (void*);
 void createTask(TaskFunction task, const char *pcName, uint32_t priority, uint8_t taskIndex);
 void switchTask();
 void suspendTask(uint8_t taskIndex);
-void suspendTaskForIsr(uint8_t taskIndex);
 void resumeTask(uint8_t taskIndex);
 void resumeTaskFromIsr(uint8_t taskIndex);
 uint8_t createSemaphore();
 uint8_t takeSemaphore();
 uint8_t giveSemaphore();
+uint8_t createQueue(uint8_t queueSize);
+uint8_t sendMsg(void* msg);
+uint8_t receiveMsg(void* msg);
 
 #endif // RTOS_PORTABLE_H

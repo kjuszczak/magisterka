@@ -7,6 +7,7 @@
 #define TIMER_CLK 60000000
 
 typedef void (* IsrRtosCallback) (void);
+typedef void (* GpioRtosCallback) (void);
 
 void board_config();
 void print(const char *pcFormat, ...);
@@ -21,6 +22,9 @@ uint32_t getTimerValue();
 void startIsr();
 void stopIsr();
 void setIsrCallback(IsrRtosCallback rtosCallback);
+void setGpioCallback(GpioRtosCallback rtosCallback);
+
+void generateGpioInterrupt();
 
 /* Private */
 void clock_config(void);

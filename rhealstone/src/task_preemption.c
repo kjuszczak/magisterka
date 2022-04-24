@@ -6,7 +6,7 @@
 /* RTOS API */
 #include "rtos_portable.h"
 
-#define TEST_ITERATION    1000
+#define TEST_ITERATION    10000
 
 /* TASK 1 PARAMS */
 #define TASK_1_PRIORITY   1
@@ -80,7 +80,7 @@ static void taskPreemptionTest_1(void *pvParameters)
 
         if (!checkFlag)
         {
-            print("Error\n");
+            print("Error! Task 2 does not work\n");
             return;
         }
     }

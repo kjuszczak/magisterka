@@ -61,6 +61,8 @@
 
 /* USER CODE END EV */
 
+extern uint8_t schedulerStartFlag;
+
 /******************************************************************************/
 /*           Cortex-M3 Processor Interruption and Exception Handlers          */
 /******************************************************************************/
@@ -187,7 +189,10 @@
  
 // /* USER CODE END SysTick_IRQn 0 */
     HAL_IncTick();
-    xPortSysTickHandler();
+    // if (schedulerStartFlag)
+    // {
+      xPortSysTickHandler();
+    // }
 // /* USER CODE BEGIN SysTick_IRQn 1 */
  
 // /* USER CODE END SysTick_IRQn 1 */

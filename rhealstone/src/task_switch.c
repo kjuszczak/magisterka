@@ -6,7 +6,7 @@
 /* RTOS API */
 #include "rtos_portable.h"
 
-#define TEST_ITERATION 1000000
+#define TEST_ITERATION 10000
 
 /* TASK PARAMS */
 #define TASK_PRIORITY   0
@@ -16,6 +16,8 @@ static struct TaskSwitchResults testResults = {
     .testTime = 0,
     .testIteration = 2 * TEST_ITERATION
 };
+
+static uint8_t checkFlag = 0;
 
 static void initTest();
 static void taskSwitchTest_1(void *pvParameters);
@@ -28,9 +30,7 @@ void startTaskSwitchTest()
 
 void printTestSwitchResults()
 {
-    static uint32_t result = 0;
-    result = testResults.testTime - testResults.loopCmdTime;
-    print("Task switch test: testTime:%u\n", result);
+    print("Task switch test: testTime:%u, loopCmdTime:%u\n", testResults.testTime, testResults.loopCmdTime);
 }
 
 struct TaskSwitchResults* getTestSwitchResults()
@@ -47,10 +47,6 @@ static void initTest()
     {
         ; /* JUST LOOP */
     }
-    for (uint32_t i = 0; i < TEST_ITERATION; i++)
-    {
-        ; /* JUST LOOP */
-    }
     testResults.loopCmdTime = getTimerValue();
     stopTimer();
 }
@@ -61,13 +57,17 @@ static void taskSwitchTest_1(void *pvParameters)
 
     createTask(taskSwitchTest_2, "TaskSwitchTest_2", TASK_PRIORITY, TASK_2_INDEX);
 
-    startTimer();
     for (uint32_t i = 0; i < TEST_ITERATION; i++)
     {
+        startTimer();
         switchTask();
+        if (!checkFlag)
+        {
+            print("Error! Task 2 does not work!\n");
+            return;
+        }
+        checkFlag = 0;
     }
-    testResults.testTime = getTimerValue();
-    stopTimer();
 
     printTestSwitchResults();
 
@@ -78,6 +78,9 @@ static void taskSwitchTest_2(void *pvParameters)
 {
     for (uint32_t i = 0; i < TEST_ITERATION; i++)
     {
+        testResults.testTime += getTimerValue();
+        stopTimer();
+        checkFlag = 1;
         switchTask();
     }
 
