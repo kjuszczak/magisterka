@@ -19,9 +19,6 @@ void startTimer();
 void stopTimer();
 uint32_t getTimerValue();
 
-void startIsr();
-void stopIsr();
-void setIsrCallback(IsrRtosCallback rtosCallback);
 void setGpioCallback(GpioRtosCallback rtosCallback);
 
 void generateGpioInterrupt();

@@ -6,13 +6,13 @@
 /* RTOS API */
 #include "rtos_portable.h"
 
-#define TEST_ITERATION    10000
+#define TEST_ITERATION          10000
 
 /* TASK 1 PARAMS */
-#define TASK_1_PRIORITY   1
+#define TASK_1_PRIORITY         1
 
 /* TASK 2 PARAMS */
-#define TASK_2_PRIORITY   0
+#define TASK_2_PRIORITY         0
 
 static struct TaskPreemptionResults testResults = {
     .testTime = 0,
@@ -21,7 +21,6 @@ static struct TaskPreemptionResults testResults = {
 
 static uint8_t checkFlag = 0;
 
-static void initTest();
 static void isrCallback();
 static void taskPreemptionTest_1(void *pvParameters);
 static void taskPreemptionTest_2(void *pvParameters);
@@ -43,35 +42,21 @@ struct TaskPreemptionResults* getTestPreemptionResults()
 
 #pragma GCC push_options
 #pragma GCC optimize ("O0")
-static void initTest()
-{
-    setIsrCallback(isrCallback);
-}
 
 static void isrCallback()
 {
-    static uint8_t isFirstTime = 1;
-    if (isFirstTime)
-    {
-        isFirstTime = 0;
-        return;
-    }
-
-    stopIsr();
-
     startTimer();
     resumeTaskFromIsr(TASK_1_INDEX);
 }
 
 static void taskPreemptionTest_1(void *pvParameters)
 {
-    initTest();
+    setGpioCallback(isrCallback);
 
     createTask(taskPreemptionTest_2, "TaskPreemptionTest_2", TASK_2_PRIORITY, TASK_2_INDEX);
 
     for (int i = 0; i < TEST_ITERATION; i++)
     {
-        startIsr();
         checkFlag = 0;
 
         suspendTask(TASK_1_INDEX);
@@ -92,9 +77,12 @@ static void taskPreemptionTest_1(void *pvParameters)
 
 static void taskPreemptionTest_2(void *pvParameters)
 {
-    for (;;)
+    for (int i = 0; i < TEST_ITERATION; i++)
     {   
         checkFlag = 1;
+        generateGpioInterrupt();
     }
+
+    for (;;) {}
 }
 #pragma GCC pop_options

@@ -4,13 +4,21 @@
 #include "task.h"
 #include "queue.h"
 #include "semphr.h"
+#include "timers.h"
 
-#define TASK_BASE_PRIORITY 3u
+#define TASK_BASE_PRIORITY 0u
 
-TaskHandle_t xHandleTask[MAX_NUMBER_OF_TASKS];
+static TaskHandle_t xHandleTask[MAX_NUMBER_OF_TASKS];
 
-SemaphoreHandle_t xSemaphore = NULL;
-QueueHandle_t xStructQueue = NULL;
+static SemaphoreHandle_t xSemaphore = NULL;
+static QueueHandle_t xStructQueue = NULL;
+
+static BaseType_t xYieldRequired;
+static void vTimerCallback(TimerHandle_t timer);
+
+static TimerHandle_t xTimer[MAX_NUMBER_OF_PERIODIC_TASKS];
+static TaskFunction periodicTask[MAX_NUMBER_OF_PERIODIC_TASKS];
+static TaskHandle_t periodicTaskHandler[MAX_NUMBER_OF_PERIODIC_TASKS];
 
 void createTask(TaskFunction task, const char *pcName, uint32_t priority, uint8_t taskIndex)
 {
@@ -75,4 +83,87 @@ uint8_t sendMsg(void* msg)
 uint8_t receiveMsg(void* msg)
 {
     return xQueueReceive(xStructQueue, msg, portMAX_DELAY) == pdPASS;
+}
+
+static void vPeriodicTask_1(void* arg)
+{
+    for (;;)
+    {
+        vTaskSuspend(periodicTaskHandler[0]);
+        periodicTask[0](NULL);
+    }
+}
+
+static void vPeriodicTask_2(void* arg)
+{
+    for (;;)
+    {
+        vTaskSuspend(periodicTaskHandler[1]);
+        periodicTask[1](NULL);
+    }
+}
+
+static TaskFunction vPeriodicTasks[MAX_NUMBER_OF_PERIODIC_TASKS] = {vPeriodicTask_1, vPeriodicTask_2};
+
+static void createTimer(const char *pcName, uint16_t taskPeriod, TimerHandle_t* timer)
+{
+     *timer = xTimerCreate
+            ( /* Just a text name, not used by the RTOS
+                kernel. */
+                pcName,
+                /* The timer period in ticks, must be
+                greater than 0. */
+                taskPeriod,
+                /* The timers will auto-reload themselves
+                when they expire. */
+                pdTRUE,
+                /* The ID is used to store a count of the
+                number of times the timer has expired, which
+                is initialised to 0. */
+                ( void * ) 0,
+                /* Each timer calls the same callback when
+                it expires. */
+                vTimerCallback
+            );
+
+    xTimerStart(*timer, 0);   
+}
+
+static void deleteTimer(TimerHandle_t timer)
+{
+    xTimerStop(timer, 0);
+    xTimerDelete(timer, 0);
+}
+
+void createPeriodicTask(TaskFunction task, const char *pcName, uint16_t taskPeriod, uint32_t priority, uint8_t taskIndex)
+{
+    periodicTask[taskIndex] = task;
+
+    xTaskCreate(vPeriodicTasks[taskIndex],						
+        pcName, 						
+        configMINIMAL_STACK_SIZE, 			
+        NULL, 								
+        TASK_BASE_PRIORITY + priority, 								
+        &periodicTaskHandler[taskIndex]);	
+
+    createTimer(pcName, taskPeriod, &xTimer[taskIndex]);
+}
+
+static void vTimerCallback(TimerHandle_t timer)
+{
+    if (timer == xTimer[0])
+    {
+        xYieldRequired = xTaskResumeFromISR(periodicTaskHandler[0]);
+        portYIELD_FROM_ISR(xYieldRequired);
+    }
+    else
+    {
+        xYieldRequired = xTaskResumeFromISR(periodicTaskHandler[1]);
+        portYIELD_FROM_ISR(xYieldRequired);
+    }
+}
+
+void deletePeriodicTask(uint8_t taskIndex)
+{
+    deleteTimer(xTimer[taskIndex]);
 }

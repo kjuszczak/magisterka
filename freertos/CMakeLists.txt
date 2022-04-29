@@ -254,6 +254,7 @@ file(GLOB MAIN_SRC
     "src/*.c"
     "../board_config/src/*.c"
     "../rhealstone/src/*.c"
+    "../jitter/src/*.c"
     )
 set(SOURCES
     ${MAIN_SRC}
@@ -268,6 +269,8 @@ target_include_directories(${PROJECT_NAME}.elf
     ${PROJECT_SOURCE_DIR}/include
     ${PROJECT_SOURCE_DIR}/../board_config/include
     ${PROJECT_SOURCE_DIR}/../rhealstone/include
+    ${PROJECT_SOURCE_DIR}/../jitter/include
+    ${PROJECT_SOURCE_DIR}/../include
     )
 target_link_libraries(${PROJECT_NAME}.elf
     PUBLIC

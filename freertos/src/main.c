@@ -4,12 +4,9 @@
 
 #include "board_config.h"
 
-/* Rhealstone benchmark */
-#include "test_benchmark.h"
+#include "test_selection.h"
 
 #include "TCPExample.h"
-
-uint8_t schedulerStartFlag = 0;
 
 /**
 * @brief    Task for blinking an LED every second
@@ -32,10 +29,7 @@ int main ( void )
 
     print("FreeRTOS\n");
 
-    /* Rhealstone benchmark */
-    startRhealstoneBenchmark();
-
-    schedulerStartFlag = 1;
+    startRtosTest();
 
     /* TCP example */
     // initAndStartTCPExample();

@@ -73,33 +73,18 @@ uint32_t getTimeTick()
 
 void startTimer()
 {
-    __HAL_TIM_SET_COUNTER(&htim5, 0);
-    HAL_TIM_Base_Start(&htim5);
+    __HAL_TIM_SET_COUNTER(&htim2, 0);
+    HAL_TIM_Base_Start(&htim2);
 }
 
 void stopTimer()
 {
-    HAL_TIM_Base_Stop(&htim5);
+    HAL_TIM_Base_Stop(&htim2);
 }
 
 uint32_t getTimerValue()
 {
-    return __HAL_TIM_GET_COUNTER(&htim5);
-}
-
-void startIsr()
-{
-    HAL_TIM_Base_Start_IT(&htim2);
-}
-
-void stopIsr()
-{
-    HAL_TIM_Base_Stop_IT(&htim2);
-}
-
-void setIsrCallback(IsrRtosCallback rtosCallback)
-{
-    tim1Callback = rtosCallback;
+    return __HAL_TIM_GET_COUNTER(&htim2);
 }
 
 void setGpioCallback(GpioRtosCallback rtosCallback)
@@ -244,16 +229,15 @@ static void tim_5_config(void)
 
 static void tim_2_config(void)
 {
-  /*60MHz clock, t = (Prescaler * Period) / 60MHz = 1 msec*/
   TIM_ClockConfigTypeDef sClockSourceConfig = {0};
   TIM_MasterConfigTypeDef sMasterConfig = {0};
 
   htim2.Instance = TIM2;
-  htim2.Init.Prescaler = 1000;
+  htim2.Init.Prescaler = 0;
   htim2.Init.CounterMode = TIM_COUNTERMODE_UP;
-  htim2.Init.Period = 60;
+  htim2.Init.Period = 4294967295;
   htim2.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
-  htim2.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_ENABLE;
+  htim2.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
   
   HAL_TIM_Base_Init(&htim2);
 
