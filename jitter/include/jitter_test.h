@@ -7,9 +7,9 @@
 
 void startJitterTest()
 {
-    startJitterTestScenario_1();
+    // startJitterTestScenario_1();
     // startJitterTestScenario_2();
-    // startJitterTestScenario_3();
+    startJitterTestScenario_3();
 }
 
 #endif // JITTER_TEST_H

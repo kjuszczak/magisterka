@@ -6,7 +6,8 @@
 /* RTOS API */
 #include "rtos_portable.h"
 
-#define TEST_ITERATION    10000
+/* INTERFACE */
+#include "benchmark_interface.h"
 
 /* TASK 1 PARAMS */
 #define TASK_1_PRIORITY   0
@@ -14,7 +15,7 @@
 /* TASK 2 PARAMS */
 #define TASK_2_PRIORITY   0
 
-static struct SemaphoreShuffleTestResults testResults = {
+static struct TestResults testResults = {
     .testTime = 0,
     .testIteration = TEST_ITERATION
 };
@@ -35,11 +36,6 @@ void startSemaphoreShuffleTest()
 void printSemaphoreShuffleTestResults()
 {
     print("Semaphore shuffle test: testTime:%u\n", testResults.testTime);
-}
-
-struct SemaphoreShuffleTestResults* getSemaphoreShuffleTestResults()
-{
-    return &testResults;
 }
 
 #pragma GCC push_options
@@ -78,8 +74,8 @@ static void taskSemaphoreShuffleTest_2(void *pvParameters)
         }
     }
 
-    printSemaphoreShuffleTestResults();
-
+    sendResults(&testResults.testTime, 1);
+    
     for (;;) {}
 }
 #pragma GCC pop_options

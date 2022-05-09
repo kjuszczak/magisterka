@@ -6,7 +6,8 @@
 /* RTOS API */
 #include "rtos_portable.h"
 
-#define TEST_ITERATION    10000
+/* INTERFACE */
+#include "benchmark_interface.h"
 
 /* TASK 1 PARAMS */
 #define TASK_1_PRIORITY   1
@@ -14,7 +15,7 @@
 /* TASK 2 PARAMS */
 #define TASK_2_PRIORITY   0
 
-static struct InterruptLatencyTestResults testResults = {
+static struct TestResults testResults = {
     .testTime = 0,
     .testIteration = TEST_ITERATION
 };
@@ -32,11 +33,6 @@ void startInterruptLatencyTest()
 void printInterruptLatencyTestResults()
 {
     print("Interrupt latency test: testTime:%u\n", testResults.testTime);
-}
-
-struct InterruptLatencyTestResults* getInterruptLatencyTestResults()
-{
-    return &testResults;
 }
 
 #pragma GCC push_options
@@ -64,7 +60,8 @@ static void taskInterruptLatencyTest_1(void *pvParameters)
         stopTimer();
     }
 
-    printInterruptLatencyTestResults();
+    // printInterruptLatencyTestResults();
+    sendResults(&testResults.testTime, 1);
 
     for (;;) {}
 }

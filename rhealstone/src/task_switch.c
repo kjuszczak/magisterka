@@ -6,15 +6,16 @@
 /* RTOS API */
 #include "rtos_portable.h"
 
-#define TEST_ITERATION 10000
+/* INTERFACE */
+#include "benchmark_interface.h"
 
 /* TASK PARAMS */
 #define TASK_PRIORITY   0
 
-static struct TaskSwitchResults testResults = {
-    .loopCmdTime = 0,
+static uint32_t loopCmdTime = 0;
+static struct TestResults testResults = {
     .testTime = 0,
-    .testIteration = 2 * TEST_ITERATION
+    .testIteration = TEST_ITERATION
 };
 
 static uint8_t checkFlag = 0;
@@ -30,12 +31,7 @@ void startTaskSwitchTest()
 
 void printTestSwitchResults()
 {
-    print("Task switch test: testTime:%u, loopCmdTime:%u\n", testResults.testTime, testResults.loopCmdTime);
-}
-
-struct TaskSwitchResults* getTestSwitchResults()
-{
-    return &testResults;
+    print("Task switch test: testTime:%u\n", testResults.testTime);
 }
 
 #pragma GCC push_options
@@ -47,7 +43,7 @@ static void initTest()
     {
         ; /* JUST LOOP */
     }
-    testResults.loopCmdTime = getTimerValue();
+    loopCmdTime = getTimerValue();
     stopTimer();
 }
 
@@ -69,7 +65,9 @@ static void taskSwitchTest_1(void *pvParameters)
         checkFlag = 0;
     }
 
-    printTestSwitchResults();
+    testResults.testTime -= loopCmdTime;
+    // printTestSwitchResults();
+    sendResults(&testResults.testTime, 1);
 
     for (;;) {}
 }

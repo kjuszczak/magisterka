@@ -6,7 +6,9 @@
 /* RTOS API */
 #include "rtos_portable.h"
 
-#define TEST_ITERATION    10000
+/* INTERFACE */
+#include "benchmark_interface.h"
+
 #define QUEUE_SIZE        10
 
 /* TASK 1 PARAMS */
@@ -17,7 +19,7 @@
 #define TASK_2_PRIORITY   0
 #define TASK_2_DEFAULT_VAL_MSG 20
 
-static struct IntertaskMsgLatencyTestResults testResults = {
+static struct TestResults testResults = {
     .testTime = 0,
     .testIteration = TEST_ITERATION
 };
@@ -44,11 +46,6 @@ void printIntertaskMsgLatencyTestResults()
     print("Intertask message latency test: testTime:%u\n", testResults.testTime);
 }
 
-struct IntertaskMsgLatencyTestResults* getIntertaskMsgLatencyTestResults()
-{
-    return &testResults;
-}
-
 #pragma GCC push_options
 #pragma GCC optimize ("O0")
 
@@ -67,7 +64,8 @@ static void taskIntertaskMsgLatencyTest_1(void *pvParameters)
         }
     }
 
-    printIntertaskMsgLatencyTestResults();
+    // printIntertaskMsgLatencyTestResults();
+    sendResults(&testResults.testTime, 1);
 
     for (;;) {}
 }

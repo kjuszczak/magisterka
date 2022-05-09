@@ -6,7 +6,8 @@
 /* RTOS API */
 #include "rtos_portable.h"
 
-#define TEST_ITERATION    10000
+/* INTERFACE */
+#include "benchmark_interface.h"
 
 /* TASK 1 PARAMS */
 #define TASK_1_PRIORITY   2
@@ -17,7 +18,7 @@
 /* TASK 3 PARAMS */
 #define TASK_3_PRIORITY   0
 
-static struct DeadlockBreakingTimeTestResults testResults = {
+static struct TestResults testResults = {
     .testTime = 0,
     .testIteration = TEST_ITERATION
 };
@@ -43,11 +44,6 @@ void printDeadlockBreakingTimeTestResults()
     print("Deadlock breaking test: testTime:%u\n", testResults.testTime);
 }
 
-struct DeadlockBreakingTimeTestResults* getDeadlockBreakingTimeTestResults()
-{
-    return &testResults;
-}
-
 #pragma GCC push_options
 #pragma GCC optimize ("O0")
 
@@ -65,7 +61,8 @@ static void taskDeadlockBreakingTimeTest_1(void *pvParameters)
         }
     }
 
-    printDeadlockBreakingTimeTestResults();
+    // printDeadlockBreakingTimeTestResults();
+    sendResults(&testResults.testTime, 1);
 
     for (;;) {}
 }

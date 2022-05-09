@@ -12,12 +12,12 @@
 void startRhealstoneBenchmark()
 {
     /* Rhealstone benchmark */
-    startTaskSwitchTest();
+    // startTaskSwitchTest();
     // startTaskPreemptionTest();
     // startInterruptLatencyTest();
     // startSemaphoreShuffleTest();
     // startDeadlockBreakingTimeTest();
-    // startIntertaskMsgLatencyTest();
+    startIntertaskMsgLatencyTest();
 }
 
 #endif // TEST_BENCHMARK_H

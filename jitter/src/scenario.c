@@ -6,39 +6,44 @@
 /* RTOS API */
 #include "rtos_portable.h"
 
-#define TEST_ITERATION      1000
-#define TASK_PERIOD         5 // ms
-#define TASK_2_PERIOD       10 // ms
+/* INTERFACE */
+#include "jitter_interface.h"
+
+/* TASK 1*/
+#define TASK_1_PERIOD       2 // ms
+
+/* TASK 2 */
+#define TASK_2_PERIOD       4 // ms
 
 static void taskPeriodic(void *pvParameters);
 static void taskJitter_1(void *pvParameters);
 static void taskJitter_2(void *pvParameters);
 static void taskPeriodic_2(void *pvParameters);
 
-static uint32_t testTime[TEST_ITERATION + 1];
+static struct TestResults results = {.testIteration = TEST_ITERATION};
 static uint32_t loopIndex = 0;
 
 static const char* testScenario;
+static uint8_t taskPriority2 = 0;
+static uint8_t perTaskPriority = 0;
 
 void startJitterTestScenario(uint8_t taskPriority_1, uint8_t taskPriority_2, uint8_t periodicTaskPriority, const char* testScenarioName)
 {
     testScenario = testScenarioName;
-
-    createPeriodicTask(taskPeriodic, "TaskPeriodic", TASK_PERIOD, periodicTaskPriority, 0);
-    startTimer();
+    taskPriority2 = taskPriority_2;
+    perTaskPriority = periodicTaskPriority;
 
     createTask(taskJitter_1, "TaskJitter_1", taskPriority_1, TASK_1_INDEX);
-    createTask(taskJitter_2, "TaskJitter_2", taskPriority_2, TASK_2_INDEX);
 }
 
 void addSecondPeriodicTask(uint8_t periodicTaskPriority)
 {
-    createPeriodicTask(taskPeriodic_2, "TaskPeriodic_2", TASK_2_PERIOD, periodicTaskPriority, 1);
+    createPeriodicTask(taskPeriodic_2, "TaskPeriodic_2", TASK_2_PERIOD, periodicTaskPriority, TASK_2_INDEX);
 }
 
 void printJitterTestResults()
 {
-    print("Jitter test %s: testTime:%u\n", testScenario, testTime[1000] - testTime[999]);
+    print("Jitter test %s: testTime:%u\n", testScenario, results.testTime[0]);
 }
 
 #pragma GCC push_options
@@ -46,20 +51,25 @@ void printJitterTestResults()
 
 static void taskPeriodic(void *pvParameters)
 {
-    testTime[loopIndex] = getTimerValue();
+    results.testTime[loopIndex] = getTimerValue();
 
     if (loopIndex == TEST_ITERATION)
     {
+        stopTimer();
+        sendResults(results.testTime, TEST_ITERATION);
         deletePeriodicTask(0);
         deletePeriodicTask(1);
-        stopTimer();
-        printJitterTestResults();
     }
+
     loopIndex++;
 }
 
 static void taskJitter_1(void *pvParameters)
 {
+    createTask(taskJitter_2, "TaskJitter_2", taskPriority2, TASK_2_INDEX);
+    createPeriodicTask(taskPeriodic, "TaskPeriodic", TASK_1_PERIOD, perTaskPriority, TASK_1_INDEX);
+    startTimer();
+
     for (;;) {}
 }
 

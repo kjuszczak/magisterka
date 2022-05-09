@@ -189,10 +189,7 @@ extern uint8_t schedulerStartFlag;
  
 // /* USER CODE END SysTick_IRQn 0 */
     HAL_IncTick();
-    // if (schedulerStartFlag)
-    // {
-      xPortSysTickHandler();
-    // }
+    xPortSysTickHandler();
 // /* USER CODE BEGIN SysTick_IRQn 1 */
  
 // /* USER CODE END SysTick_IRQn 1 */

@@ -6,7 +6,8 @@
 /* RTOS API */
 #include "rtos_portable.h"
 
-#define TEST_ITERATION          10000
+/* INTERFACE */
+#include "benchmark_interface.h"
 
 /* TASK 1 PARAMS */
 #define TASK_1_PRIORITY         1
@@ -14,7 +15,7 @@
 /* TASK 2 PARAMS */
 #define TASK_2_PRIORITY         0
 
-static struct TaskPreemptionResults testResults = {
+static struct TestResults testResults = {
     .testTime = 0,
     .testIteration = TEST_ITERATION
 };
@@ -33,11 +34,6 @@ void startTaskPreemptionTest()
 void printTestPreemptionResults()
 {
     print("Task preemption test: testTime:%u\n", testResults.testTime);
-}
-
-struct TaskPreemptionResults* getTestPreemptionResults()
-{
-    return &testResults;
 }
 
 #pragma GCC push_options
@@ -70,7 +66,8 @@ static void taskPreemptionTest_1(void *pvParameters)
         }
     }
 
-    printTestPreemptionResults();
+    // printTestPreemptionResults();
+    sendResults(&testResults.testTime, 1);
 
     for (;;) {}
 }

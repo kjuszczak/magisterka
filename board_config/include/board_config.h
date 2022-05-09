@@ -23,13 +23,15 @@ void setGpioCallback(GpioRtosCallback rtosCallback);
 
 void generateGpioInterrupt();
 
+void sendResults(uint32_t* testResults, uint16_t sizeOfResults);
+
 /* Private */
 void clock_config(void);
 void gpio_config(void);
 void uart_config(void);
 void dma_config(void);
 void tim_config(void);
-// void eth_config(void);
+void eth_config(void);
 
 uint8_t uart_transmit(const char *pcFormat, va_list args);
 

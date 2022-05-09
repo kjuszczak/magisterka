@@ -64,12 +64,20 @@ set(RTOS_DIR_KERNEL_MCU ${RTOS_DIR_KERNEL}/portable/GCC/ARM_CM3) # For cortex-m3
 set(RTOS_HEAP    ${RTOS_DIR_KERNEL}/portable/MemMang/heap_4.c) # Select which heap implementation to use
 
 # Path to FreeRTOS TCP
-set(RTOS_DIR_TCP ${RTOS_DIR}/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP)
+set(RTOS_DIR_PLUS ${RTOS_DIR}/FreeRTOS-Plus/Source)
+set(RTOS_DIR_TCP ${RTOS_DIR_PLUS}/FreeRTOS-Plus-TCP)
 set(RTOS_PORT_LAYER_TCP ${RTOS_DIR_TCP}/portable/NetworkInterface/STM32Fxx)
 set(RTOS_BUFFER_TCP ${RTOS_DIR_TCP}/portable/BufferManagement/BufferAllocation_1.c)
 set(RTOS_PACK_STRUCT_TCP ${RTOS_DIR_TCP}/portable/Compiler/GCC)
 set(RTOS_PHY_HANDLING_TCP ${RTOS_DIR_TCP}/portable/NetworkInterface/include)
 set(RTOS_PHY_HANDLING_SRC_TCP ${RTOS_DIR_TCP}/portable/NetworkInterface/Common/phyHandling.c)
+
+# Path to MQTT Core
+set(RTOS_MQTT ${RTOS_DIR_PLUS}/Application-Protocols/coreMQTT/source)
+set(BACKOFF_ALGORITHM ${RTOS_DIR_PLUS}/Utilities/backoff_algorithm/source)
+set(PLAIN_TEXT ${RTOS_DIR_PLUS}/Application-Protocols/network_transport/using_plaintext)
+set(SOCKET_WRAPPER_TCP ${RTOS_DIR_PLUS}/Application-Protocols/network_transport/sockets_wrapper/freertos_plus_tcp)
+set(LOGGER ${RTOS_DIR_PLUS}/Utilities/logging)
 
 set(MCU_TCP STM32F2xx)
 
@@ -255,6 +263,10 @@ file(GLOB MAIN_SRC
     "../board_config/src/*.c"
     "../rhealstone/src/*.c"
     "../jitter/src/*.c"
+    "${RTOS_MQTT}/*.c"
+    "${BACKOFF_ALGORITHM}/*.c"
+    "${PLAIN_TEXT}/*.c"
+    "${SOCKET_WRAPPER_TCP}/*.c"
     )
 set(SOURCES
     ${MAIN_SRC}
@@ -270,7 +282,14 @@ target_include_directories(${PROJECT_NAME}.elf
     ${PROJECT_SOURCE_DIR}/../board_config/include
     ${PROJECT_SOURCE_DIR}/../rhealstone/include
     ${PROJECT_SOURCE_DIR}/../jitter/include
+    ${PROJECT_SOURCE_DIR}/../interface/include
     ${PROJECT_SOURCE_DIR}/../include
+    ${RTOS_MQTT}/include
+    ${RTOS_MQTT}/interface
+    ${BACKOFF_ALGORITHM}/include
+    ${PLAIN_TEXT}
+    ${SOCKET_WRAPPER_TCP}
+    ${LOGGER}
     )
 target_link_libraries(${PROJECT_NAME}.elf
     PUBLIC

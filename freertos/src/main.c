@@ -8,6 +8,8 @@
 
 #include "TCPExample.h"
 
+#include "mqtt_portable.h"
+
 /**
 * @brief    Task for blinking an LED every second
 * 
@@ -29,10 +31,12 @@ int main ( void )
 
     print("FreeRTOS\n");
 
-    startRtosTest();
+    // startRtosTest();
 
     /* TCP example */
-    // initAndStartTCPExample();
+    initMqtt();
+
+    // initAndStartMQTT();
 
     // xTaskCreate( LedBlinky_Task,						/* The function that implements the task. */
     //              "LedBlinky", 							/* The text name assigned to the task - for debug only as it is not used by the kernel. */
