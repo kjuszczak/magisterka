@@ -25,6 +25,8 @@ void generateGpioInterrupt();
 
 void sendResults(uint32_t* testResults, uint16_t sizeOfResults);
 
+void resetSystem();
+
 /* Private */
 void clock_config(void);
 void gpio_config(void);

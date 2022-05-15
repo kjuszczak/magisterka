@@ -24,5 +24,7 @@ uint8_t sendMsg(void* msg);
 uint8_t receiveMsg(void* msg);
 void createPeriodicTask(TaskFunction task, const char *pcName, uint16_t taskPeriod, uint32_t priority, uint8_t taskIndex);
 void deletePeriodicTask(uint8_t taskIndex);
+void sleepTask(uint32_t time);
+void disconnect();
 
 #endif // RTOS_PORTABLE_H

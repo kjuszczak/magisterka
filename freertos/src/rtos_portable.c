@@ -167,3 +167,8 @@ void deletePeriodicTask(uint8_t taskIndex)
 {
     deleteTimer(xTimer[taskIndex]);
 }
+
+void sleepTask(uint32_t time)
+{
+    vTaskDelay(time / portTICK_PERIOD_MS);
+}

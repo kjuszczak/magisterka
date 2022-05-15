@@ -8,7 +8,7 @@
 
 #include "TCPExample.h"
 
-#include "mqtt_portable.h"
+#include "connection_time.h"
 
 /**
 * @brief    Task for blinking an LED every second
@@ -33,10 +33,7 @@ int main ( void )
 
     // startRtosTest();
 
-    /* TCP example */
-    initMqtt();
-
-    // initAndStartMQTT();
+    testMqtt();
 
     // xTaskCreate( LedBlinky_Task,						/* The function that implements the task. */
     //              "LedBlinky", 							/* The text name assigned to the task - for debug only as it is not used by the kernel. */
@@ -55,8 +52,9 @@ int main ( void )
 void vLoggingPrintf( const char *pcFormat,
                      ... )
 {
-    va_list val;
-    va_start(val, pcFormat);
-    uart_transmit(pcFormat, val);
-    va_end(val);
+    /*In case of MQTT test comment this part*/
+    // va_list val;
+    // va_start(val, pcFormat);
+    // uart_transmit(pcFormat, val);
+    // va_end(val);
 }

@@ -60,6 +60,7 @@ uint8_t uart_transmit(const char *pcFormat, va_list args)
 {
     npf_vsnprintf(logBuffer + 1, 249, pcFormat, args);
     return HAL_UART_Transmit(&huart3, (uint8_t*)logBuffer, strlen(logBuffer), HAL_MAX_DELAY) == HAL_OK;
+    // return HAL_UART_Transmit_IT(&huart3, (uint8_t*)logBuffer, strlen(logBuffer)) == HAL_OK;
 }
 
 void delay(uint32_t period)
@@ -101,6 +102,11 @@ void generateGpioInterrupt()
 void sendResults(uint32_t* testResults, uint16_t sizeOfResults)
 {
     HAL_UART_Transmit(&huart3, (uint8_t*)testResults, 4 * sizeOfResults, HAL_MAX_DELAY);
+}
+
+void resetSystem()
+{
+    NVIC_SystemReset();
 }
 
 /* PRIVATE FUNCTIONS */

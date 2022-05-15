@@ -76,6 +76,9 @@ set(RTOS_PHY_HANDLING_SRC_TCP ${RTOS_DIR_TCP}/portable/NetworkInterface/Common/p
 set(RTOS_MQTT ${RTOS_DIR_PLUS}/Application-Protocols/coreMQTT/source)
 set(BACKOFF_ALGORITHM ${RTOS_DIR_PLUS}/Utilities/backoff_algorithm/source)
 set(PLAIN_TEXT ${RTOS_DIR_PLUS}/Application-Protocols/network_transport/using_plaintext)
+set(MBED_TLS ${RTOS_DIR_PLUS}/Application-Protocols/network_transport/using_mbedtls)
+set(MBED_TLS_LIB ${RTOS_DIR}/FreeRTOS-Plus/ThirdParty/mbedtls)
+set(MBED_TLS_UTILITY ${RTOS_DIR_PLUS}/Utilities/mbedtls_freertos)
 set(SOCKET_WRAPPER_TCP ${RTOS_DIR_PLUS}/Application-Protocols/network_transport/sockets_wrapper/freertos_plus_tcp)
 set(LOGGER ${RTOS_DIR_PLUS}/Utilities/logging)
 
@@ -263,9 +266,13 @@ file(GLOB MAIN_SRC
     "../board_config/src/*.c"
     "../rhealstone/src/*.c"
     "../jitter/src/*.c"
+    "../mqtt/src/*.c"
     "${RTOS_MQTT}/*.c"
     "${BACKOFF_ALGORITHM}/*.c"
     "${PLAIN_TEXT}/*.c"
+#    "${MBED_TLS_LIB}/library/*.c"
+#    "${MBED_TLS_UTILITY}/*.c"
+#    "${MBED_TLS}/*.c"
     "${SOCKET_WRAPPER_TCP}/*.c"
     )
 set(SOURCES
@@ -282,12 +289,16 @@ target_include_directories(${PROJECT_NAME}.elf
     ${PROJECT_SOURCE_DIR}/../board_config/include
     ${PROJECT_SOURCE_DIR}/../rhealstone/include
     ${PROJECT_SOURCE_DIR}/../jitter/include
+    ${PROJECT_SOURCE_DIR}/../mqtt/include
     ${PROJECT_SOURCE_DIR}/../interface/include
     ${PROJECT_SOURCE_DIR}/../include
     ${RTOS_MQTT}/include
     ${RTOS_MQTT}/interface
     ${BACKOFF_ALGORITHM}/include
     ${PLAIN_TEXT}
+#    ${MBED_TLS_LIB}/include
+#    ${MBED_TLS_UTILITY}
+#    ${MBED_TLS}
     ${SOCKET_WRAPPER_TCP}
     ${LOGGER}
     )

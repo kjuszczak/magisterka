@@ -69,4 +69,51 @@
  */
 #define democonfigDEMO_STACKSIZE    configMINIMAL_STACK_SIZE
 
+/**
+ * @brief Server's root CA certificate.
+ *
+ * For AWS IoT MQTT broker, this certificate is used to identify the AWS IoT
+ * server and is publicly available. Refer to the AWS documentation available
+ * in the link below.
+ * https://docs.aws.amazon.com/iot/latest/developerguide/server-authentication.html#server-authentication-certs
+ *
+ * @note This certificate should be PEM-encoded.
+ *
+ * Must include the PEM header and footer:
+ * "-----BEGIN CERTIFICATE-----\n"\
+ * "...base64 data...\n"\
+ * "-----END CERTIFICATE-----\n"
+ *
+ * #define democonfigROOT_CA_PEM    "...insert here..."
+ */
+#define democonfigROOT_CA_PEM    "...insert here..."
+
+/**
+ * @brief The username value for authenticating client to the MQTT broker when
+ * username/password based client authentication is used.
+ *
+ * For AWS IoT MQTT broker, refer to the AWS IoT documentation below for
+ * details regarding client authentication with a username and password.
+ * https://docs.aws.amazon.com/iot/latest/developerguide/custom-authentication.html
+ * An authorizer setup needs to be done, as mentioned in the above link, to use
+ * username/password based client authentication.
+ *
+ * #define democonfigCLIENT_USERNAME    "...insert here..."
+ */
+#define democonfigCLIENT_USERNAME    "...insert here..."
+
+/**
+ * @brief The password value for authenticating client to the MQTT broker when
+ * username/password based client authentication is used.
+ *
+ * For AWS IoT MQTT broker, refer to the AWS IoT documentation below for
+ * details regarding client authentication with a username and password.
+ * https://docs.aws.amazon.com/iot/latest/developerguide/custom-authentication.html
+ * An authorizer setup needs to be done, as mentioned in the above link, to use
+ * username/password based client authentication.
+ *
+ * #define democonfigCLIENT_PASSWORD    "...insert here..."
+ */
+#define democonfigCLIENT_PASSWORD    "...insert here..."
+
 #endif /* MQTT_CONFIG_H */

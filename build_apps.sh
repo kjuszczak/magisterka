@@ -4,27 +4,27 @@
 USER_DIR=/home/$USER
 PROJECT_DIR=$USER_DIR/magisterka
 
-# # FREERTOS
-# echo "### Start building app for FreeRTOS ###"
-# FREERTOS_DIR=$PROJECT_DIR/freertos
-# FREERTOS_BULD_DIR=$FREERTOS_DIR/build
+# FREERTOS
+echo "### Start building app for FreeRTOS ###"
+FREERTOS_DIR=$PROJECT_DIR/freertos
+FREERTOS_BULD_DIR=$FREERTOS_DIR/build
 
-# if [ ! -d "$FREERTOS_BULD_DIR" ]; then
-#     mkdir $FREERTOS_BULD_DIR
-# fi
+if [ ! -d "$FREERTOS_BULD_DIR" ]; then
+    mkdir $FREERTOS_BULD_DIR
+fi
 
-# cd $FREERTOS_BULD_DIR
-# cmake $FREERTOS_DIR
-# make || { return; }
-# cd $PROJECT_DIR
+cd $FREERTOS_BULD_DIR
+cmake $FREERTOS_DIR
+make || { return; }
+cd $PROJECT_DIR
 
-# # ZEPHYR
-# echo "### Start building app for Zephyr ###"
-# ZEPHYR_DIR=$PROJECT_DIR/zephyrproject/zephyr
+# ZEPHYR
+echo "### Start building app for Zephyr ###"
+ZEPHYR_DIR=$PROJECT_DIR/zephyrproject/zephyr
 
-# cd $ZEPHYR_DIR
-# west build ./app || { return; }
-# cd $PROJECT_DIR
+cd $ZEPHYR_DIR
+west build ./app || { return; }
+cd $PROJECT_DIR
 
 # Mbed OS
 echo "### Start building app for Mbed OS ###"
